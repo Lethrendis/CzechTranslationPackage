@@ -1,0 +1,26 @@
+{
+  "id": "czechtranslationpackage",
+  "title": "CzechTranslationPackage",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12.331",
+    "verified": "12.331"
+  },
+  "description": "Translation into English of a package of several smaller modules.",
+  "authors": [
+    {
+      "name": "Lethrendis",
+      "discord": "Lethrendis",
+      "url": "https://github.com/Lethrendis"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    }
+  ],
+  "url": "https://github.com/Lethrendis/CzechTranslationPackage",
+  "manifestURL": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationPackage/main/module.json"
+}
