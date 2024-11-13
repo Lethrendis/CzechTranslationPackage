@@ -1,0 +1,1833 @@
+{
+"SMLTME.Time_Format": "Formát času",
+"SMLTME.12hr": "12 hodinový",
+"SMLTME.24hr": "24 hodinový",
+"SMLTME.Show_Seconds": "Zobrazit sekundy",
+"SMLTME.Date_Format": "Formát data",
+"SMLTME.Calendar_Provider": "Poskytovatel kalendáře",
+"SMLTME.Calendar_Provider_Hint": "Zdroj informací o kalendáři tvého světa.",
+"SMLTME.Small_Step": "Malý krok",
+"SMLTME.Small_Step_Hint": "Počet minut, o kolik se úpraví čas tlačítkem < a >. Když podržíš Shift, tak o dvojnásobek, když Alt, tak o polovinu.",
+"SMLTME.Large_Step": "Velký krok",
+"SMLTME.Large_Step_Hint": "Počet minut, o kolik se úpraví čas tlačítkem << a >>. Když podržíš Shift, tak o dvojnásobek, když Alt, tak o polovinu.",
+"SMLTME.Resting_Opacity": "Neaktivní průhlednost",
+"SMLTME.Resting_Opacity_Hint": "Průhlednost okna SmallTime, když se s ním neinteraguje.",
+"SMLTME.Darkness_Default": "Ovlivnění temnoty ve výchozím nastavení",
+"SMLTME.Darkness_Default_Hint": "Výchozí nastavení pro ovládání temnoty v konfiguraci scén. Pouze pro nové scény.",
+"SMLTME.Darkness_Control": "Ovládání temnoty",
+"SMLTME.Darkness_Control_Hint": "Propojí úroveň temnoty scény s aktuálním časem ve SmallTime.",
+"SMLTME.Darkness_Config": "Nastavení temnoty",
+"SMLTME.Darkness_Config_Hint": "Můžeš tahat sluncem a měsícem pro nastavení časů východu a západu. Jejich výška určuje maximální a minimální úroveň temnoty.",
+"SMLTME.Hide_From_Players": "Skrýt před hráči",
+"SMLTME.Hide_From_Players_Hint": "Skryje okno SmallTime pro všechny ne-GM uživatele.",
+"SMLTME.Allow_Trusted": "Povolit řízení důvěryhodným hráčům",
+"SMLTME.Allow_Trusted_Hint": "Uživatelé s rolí důvěryhodného hráče budou moci měnit aktuální čas.",
+"SMLTME.Player_Visibility": "Viditelnost pro hráče",
+"SMLTME.Player_Visibility_Hint": "Výběr, které části SmallTime budou v této scéně viditelné pro hráče.",
+"SMLTME.Player_Visibility_Default": "Výchozí viditelnost pro hráče",
+"SMLTME.Player_Visibility_Default_Hint": "Výchozí úroveň viditelnosti pro scény. Pouze pro nové scény.",
+"SMLTME.Player_Vis_0": "Nic",
+"SMLTME.Player_Vis_1": "Pouze pozice slunce a měsíce",
+"SMLTME.Player_Vis_2": "Pozice slunce, měsíce a čas dne",
+"SMLTME.Darkness_Reset": "Shift-Klik pro reset časů na výchozí",
+"SMLTME.Position_Reset": "Shift-Klik pro reset pozice okna SmallTime",
+"SMLTME.Sun_Sync": "Synchronizovat východ a západ slunce",
+"SMLTME.Sun_Sync_Hint": "Získat časy východu a západu slunce z modulu Simple Calendar.",
+"SMLTME.Threshold_Override_Tooltip": "SmallTime upravuje toto nastavení na základě fáze měsíce",
+"SMLTME.Moonlight_Adjust": "Úprava měsíčního světla",
+"SMLTME.Moonlight_Adjust_Hint": "Bude upravovat práh globálního osvětlení podle aktuální fáze měsíce.",
+"SMLTME.Moon_Tint": "Zabarvit temnotu barvou měsíce",
+"SMLTME.Moon_Tint_Hint": "Scény, ve kterých SmallTime ovládá úroveň temnoty, budou zabarveny barvou prvního dostupného měsíce nastaveného v modulu Simple Calendar.",
+"SMLTME.Phase_Impact": "Dopad fáze",
+"SMLTME.Phase_Impact_Hint": "Určuje množství vlivu fáze měsíce na aktuální úroveň temnoty (vyžaduje znovunačtení).",
+"SMLTME.Moon_Darkness": "Fáze měsíce ovlivňuje temnotu",
+"SMLTME.Moon_Darkness_Hint": "Automaticky přizpůsobí maximální úroveň temnoty na základě aktuální fáze měsíce.",
+"SMLTME.Toggle_Hotkey": "Přepínač viditelnosti",
+"SMLTME.Toggle_Hotkey_Hint": "Přepne viditelnost okna SmallTime.",
+
+
+
+"times-up.Debug.Name": "Ladění",
+"times-up.Debug.Hint": "Vybere množství zobrazovaného ladění",
+"times-up.TimesUpEnabled.Name": "Povolit Times Up",
+"times-up.TimesUpEnabled.Hint": "Povolit automatické vypršení a úpravy efektů. Změny pasivních efektů toto povolení vyžadují",
+"times-up.EnablePassiveEffects.Name": "Nastavit začátek přenosu efektů",
+"times-up.EnablePassiveEffects.Hint": "Když je povoleno vypršení aktivního efektu, aktualizuje se jeho čas začátku na aktuální čas světa/boje",
+"times-up.UpdatePassiveEffects.Name": "Aktualizovat pasivní efekty",
+"times-up.UpdatePassiveEffects.Hint": "Doba trvání pasivních efektů bude změněna na kola/sekundy, pokud je token v boji (nebo do něj vstoupí), nebo boj opustí. Viz také níže",
+"times-up.MaxRoundsToConvert.Name": "Maximální počet kol pro převod",
+"times-up.MaxRoundsToConvert.Hint": "Pokud je doba trvání v sekundách (zbývající doba pro nepřenášené efekty), pak bude převedena na bojová kola",
+
+
+
+
+
+"VISION5E.Blindsense": "Mimozrakové vnímání",
+"VISION5E.BloodSense": "Vycítění krve",
+"VISION5E.DetectEvilAndGood": "Najdi Zlo a Dobro",
+"VISION5E.DetectMagic": "Najdi magii",
+"VISION5E.DetectPoisonAndDisease": "Najdi jed a nemoc",
+"VISION5E.DetectThoughts": "Odhal myšlenky",
+"VISION5E.DevilsSight": "Ďábelský zrak",
+"VISION5E.DivineSense": "Vnímání božství",
+"VISION5E.EtherealSight": "Éterický zrak",
+"VISION5E.EyesOfTheGrave": "Oči hrobu",
+"VISION5E.Hearing": "Sluch",
+"VISION5E.Inaudible": "Neslyšitelný",
+"VISION5E.LifeSense": "Vycítění života",
+"VISION5E.SeeInvisibility": "Spatři neviditelné",
+"VISION5E.WitchSight": "Čarodějnický zrak",
+"VISION5E.SETTINGS.defaultHearingRange.label": "Výchozí dosah sluchu",
+"VISION5E.SETTINGS.defaultHearingRange.hint": "Nastaví, jak daleko postavy slyší ve výchozím nastavení. Vyžaduje opětovné načtení světa.",
+"VISION5E.TOOLTIPS.AutomaticallyManaged": "Automaticky spravováno modulem Vision 5e",
+
+
+
+
+
+
+
+  "enhancedcombathud": {
+      "controls": {
+        "toggle": {
+          "title": "Přepnout Argon Combat HUD",
+          "warning": "Argon Combat HUD: Není vybrán žádný token. Pro zapnutí panelu vyber nějaký token"
+        }
+      },
+      "settings": {
+        "color": {
+          "label": "Barva",
+          "text": "Hlavní barva",
+          "hint": "Barva karty akcí a dalších hlavních prvků panelu"
+        },
+        "fore-color": {
+          "text": "Barva textu",
+          "hint": "Barva textu"
+        },
+        "color-bonus-action": {
+          "text": "Barva bonusové akce",
+          "hint": "Barva karty bonusové akce"
+        },
+        "color-free-action": {
+          "text": "Barva volné akce",
+          "hint": "Barva karty volné akce"
+        },
+        "color-reaction": {
+          "text": "Barva reakce",
+          "hint": "Barva karty reakce"
+        },
+        "color-end-turn": {
+          "text": "Barva ukončení tahu",
+          "hint": "Barva karty ukončení tahu"
+        },
+        "color-tooltip": {
+          "text": "Barva nápovědy",
+          "hint": "Barva bublinové nápovědy a výduvného panelu záchran, dovedností a nástrojů"
+        },
+        "theme": {
+          "name": "Motiv",
+          "hint": "Motiv panelu",
+          "custom": "Vlastní",
+          "helium": "Helium",
+          "neon": "Neon",
+          "argon": "Argon",
+          "krypton": "Krypton",
+          "xenon": "Xenon",
+          "radon": "Radon",
+          "oganesson": "Oganesson"
+        },
+        "globalTheme": {
+          "name": "Režim motivu",
+          "hint": "Pokud je nastaveno na 'Klient', může si každý hráč vybrat vlastní motiv. Pokud je nastaveno na 'Svět', téma vybrané GM bude stejné pro všechny hráče.",
+          "choices": {
+            "client": "Klient",
+            "world": "Svět"
+          }
+        },
+        "scale": {
+      "name": "Měřítko",
+      "hint": "Měřítko panelu - pokud je automatické měřítko zapnuto, bude toto nastavení použito jako násobitel vypočítaného měřítka"
+    },
+    "dialogTheme": {
+      "name": "Motiv dialogu",
+      "hint": "Použít motiv Argonu na dialogy otevřené z panelu"
+    },
+    "autoScale": {
+      "name": "Automatické měřítko",
+      "hint": "Automaticky nastavá měřítko panelu podle velikosti obrazovky. Ignoruje tak nastavení měřítka"
+    },
+    "alwaysOn": {
+      "name": "Vždy zapnuto",
+      "hint": "Automaticky zobrazí panel pokaždé, když vybereš token"
+    },
+    "leftPos": {
+      "name": "Pozice vlevo",
+      "hint": "Vzdálenost od levého okraje v pixelech"
+    },
+    "botPos": {
+      "name": "Pozice dole",
+      "hint": "Vzdálenost od dolního okraje v pixelech"
+    },
+    "playerDetailsBottom": {
+      "name": "Detaily hráče dole",
+      "hint": "Umístit jméno hráče a informace o povolání dolů pod portrét"
+    },
+    "preparedSpells": {
+      "name": "Pouze připravená kouzla",
+      "hint": "Zobrazí pouze připravená kouzla"
+    },
+    "showTooltips": {
+      "name": "Zobrazit bublinovou nápovědu",
+      "hint": "Zobrazí bublinovou nápovědu po přejetí myší"
+    },
+    "showTooltipsSpecial": {
+      "name": "Zobrazit bublinovou nápovědu pro speciální akce",
+      "hint": "Zobrazí bublinovou nápovědu po přejetí myší u speciálních akcí (Uhýbání, Odpoutání se, Strčit...)"
+    },
+    "showTooltipsAbilityMenuAbilities": {
+      "name": "Zobrazit bublinovou nápovědu pro schopnosti",
+      "hint": "Zobrazí bublinovou nápovědu po přejetí myší u vlastností v menu vlastností"
+    },
+    "showTooltipsAbilityMenuSkills": {
+      "name": "Zobrazit bublinovou nápovědu pro dovednosti",
+      "hint": "Zobrazí bublinovou nápovědu po přejetí myší u dovedností v menu vlastností"
+    },
+    "showTooltipsAbilityMenuTools": {
+      "name": "Zobrazit bublinovou nápovědu pro nástroje",
+      "hint": "Zobrazit bublinovou nápovědu po přejetí myší u nástrojů v menu vlastností"
+    },
+    "fadeOutInactive": {
+      "name": "Postupné zmizení",
+      "hint": "Panel po 5 sekundách bez přejetí myší postupně zmizí"
+    },
+    "fadeoutDelay": {
+      "name": "Zpoždění zmizení",
+      "hint": "Zpoždění před zmizením panelu v sekundách"
+    },
+    "fadeoutOpacity": {
+      "name": "Neprůhlednost po zmizení",
+      "hint": "Nastaví neprůhlednost panelu po zmizení"
+    },
+    "hideMacroPlayers": {
+      "name": "Skrýt lištu maker a seznam hráčů",
+      "hint": "Když je panel otevřený, skryje se lišta maker a seznam hráčů"
+    },
+    "openCombatStart": {
+      "name": "Otevřít při zahájení souboje",
+      "hint": "Když je zahájen boj, panel se otevře"
+    },
+    "tooltipScale": {
+      "name": "Měřítko bublinové nápovědy",
+      "hint": "Měřítko bublinové nápovědy"
+    },
+    "switchEquip": {
+      "name": "Automatické vybavení",
+      "hint": "Při přepnutí setu se automaticky vybaví/odloží předměty"
+    },
+    "showWeaponsItems": {
+      "name": "Zobrazit zbraně v sekci 'Použít předmět'",
+      "hint": "Zobrazí zbraně v sekci 'Použít předmět'. Užitečné, pokud nestačí karty na zbraně"
+    },
+    "noAA": {
+      "name": "Nepoužívat aktivní efekty",
+      "hint": "Při použití speciálních akcí se nepoužívají aktivní efekty. (vyžaduje znovunačtení)"
+    },
+    "noBlur": {
+      "name": "Zakázat efekty rozostření",
+      "hint": "Zakáže efekty rozostření panelu. Je to nastavení posilující výkon a mělo by být použito pouze, pokud máš problémy s výkonem."
+    },
+    "suppressWarnings": {
+      "name": "Potlačit varování",
+      "hint": "Pokud dojde k chybě, nebude se zobrazovat varovná zpráva a modul tiše selže."
+    },
+    "rangefinder": {
+      "name": "3D plátno - měřič vzdálenosti",
+      "hint": "Povolit 3D plátno měřič vzdálenosti při najetí na položky v panelu. Pokud je zapnuto, zobrazí vzdálenost k cíli - vzdálenost bude červená, pokud je cíl mimo dosah."
+    },
+    "rangepicker": {
+      "name": "Výběr cíle",
+      "hint": "Při použití položky či akce vyžadující cíl zobrazí počet cílů následující kurzor myši, dokud není vybrán správný počet cílů. Pokud je to nutné, použij klávesy +/- pro manuální nastavení potřebných cílů."
+    },
+    "rangepickerclear": {
+      "name": "Výběr cíle - vymazání cíle",
+      "hint": "Při použití položky či akce vyžadující cíl před vstupem do režimu Výběru cíle vymaže všechny cíle."
+    },
+    "thememenu": {
+      "name": "Přizpůsobení motivu",
+      "hint": "Nastaví, vybere a přizpůsobí motivy Argonu",
+      "label": "Nastavit motivy"
+    }
+      },
+      "hud": {
+    "pass": "Přeskočit",
+    "endturn": "Ukončit tah",
+    "macro": "Makro",
+    "page": "Stránka"
+  },
+  "themeOptions": {
+    "save": "Uložit změny",
+    "export": "Exportovat motiv",
+    "autoTextColorTitle": "Automaticky nastavit barvy textu na základě pozadí",
+    "autoTextColorHint": "Toto nastavení upravuje barvu textu na základě barvy pozadí, aby byl čitelný.",
+    "exportThemeName": "Název exportovaného motivu:",
+    "exportTheme": {
+      "save": "Uložit",
+      "cancel": "Zrušit"
+    },
+    "themeTitle": "Vybrat motiv",
+    "themeHint": "Výběrem motivu použiješ přednastavenou paletu barev v Argonu.",
+    "portrait": "Barvy portrétu",
+    "mainAction": "Barvy hlavní akce",
+    "bonusAction": "Barvy bonusové akce",
+    "freeAction": "Barvy volné akce",
+    "reaction": "Barvy reakce",
+    "endTurn": "Barvy konce tahu",
+    "tooltip": "Barvy bublinové nápovědy",
+    "abilityMenu": "Barvy nabídky vlastností",
+    "buttons": "Barvy tlačítek",
+    "movement": "Barvy polí pohybu",
+    "background": "Barva pozadí",
+    "color": "Barva textu",
+    "border": "Barva okraje",
+    "boxShadow": "Barva stínu okraje",
+    "portraitBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "mainActionBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "mainActionHover": "Pozadí/Popředí/Barva okraje po přejetí myši nad prvkem",
+    "bonusActionBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "bonusActionHover": "Pozadí/Popředí/Barva okraje po přejetí myši nad prvkem",
+    "freeActionBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "freeActionHover": "Pozadí/Popředí/Barva okraje po přejetí myší nad prvkem",
+    "reactionBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "reactionHover": "Pozadí/Popředí/Barva okraje po přejetí myší nad prvkem",
+    "endTurnBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "endTurnHover": "Pozadí/Popředí/Barva okraje po přejetí myší nad prvkem",
+    "tooltipHeader": "Pozadí/Popředí/Barva okraje záhlaví bublinových nápověd/oken",
+    "tooltipSubtitle": "Pozadí/Popředí/Barva okraje titulků bublinových nápověd",
+    "tooltipBody": "Pozadí/Popředí/Barva okraje karty bublinových nápověd/oken",
+    "abilityMenuBase": "Popředí/Barva stínu, když není myš nad prvkem",
+    "abilityMenuHover": "Popředí/Barva stínu po přejetí myší nad prvkem",
+    "buttonsBase": "Pozadí/Popředí/Barva okraje, když není myš nad prvkem",
+    "buttonsHover": "Pozadí/Popředí/Barva okraje po přejetí myší nad prvkem",
+    "movementUsed": "Pozadí/Stín pole označujícího použité body pohybu",
+    "movementBaseMovement": "Pozadí/Stín pole označujícího dostupné body pohybu",
+    "movementDashMovement": "Pozadí/Stín pole označujícího pohyb sprintem",
+    "movementDangerMovement": "Pozadí/Stín pole označujícího překročené body pohybu"
+  },
+  "hotkey": {
+    "toggle": "Přepnout Argon Combat HUD"
+  },
+  "err": {
+    "unsupportedActorType": "Argon: Typ aktéra '%t' není v Argon Combat HUDu podporován.",
+    "moduleNotActive": "Argon CORE: Modul specifický pro systém není nainstalován, nebo aktivní. Prosím nainstaluj a aktivuj modul %m, pokud je dostupný."
+  },
+  "targetPicker": {
+    "dialog": {
+      "title": "Výukový program pro výběr cílů",
+      "list": {
+        "0": "Počet vybraných/požadovaných cílů bude sledovat kurzor",
+        "1": "<span>Levým kliknutím</span>, nebo stisknutím <span>T</span> zaměř cíl",
+        "2": "<span>Pravým kliknutím</span> zruš výběr cíle",
+        "3": "Stiskni <span>+</span>, nebo <span>-</span> pro ruční zvýšení/snížení počtu požadovaných cílů"
+          }
+        }
+      }
+    },
+  
+
+
+
+
+
+    "enhancedcombathud-dnd5e": {
+  "portraitConfig": {
+    "prepared": {
+      "label": "Připravená kouzla",
+      "auto": "Automatická detekce",
+      "preparedOnly": "Pouze připravená",
+      "all": "Všechna kouzla"
+    }
+    },
+  "settings": {
+    "switchEquip": {
+      "name": "Automatické vybavení",
+      "hint": "Při přepnutí setu se automaticky vybaví/odloží předměty"
+    },
+    "showWeaponsItems": {
+      "name": "Zobrazit zbraně v sekci 'Použít předmět'",
+      "hint": "Zobrazí zbraně v sekci 'Použít předmět'. Užitečné, pokud nestačí karty na zbraně"
+    },
+    "showClassActions": {
+      "name": "Zobrazit akce povolání",
+      "hint": "Zobrazí akce povolání v hlavní sekci akcí"
+    },
+    "condenseClassActions": {
+      "name": "Kondenzovat akce povolání",
+      "hint": "Pokud je povoleno 'Zobrazit akce třídy', sbalí se pro úsporu místa akce povolání do párů"
+    },
+    "noAA": {
+      "name": "Nepoužívat aktivní efekty",
+      "hint": "Při použití speciálních akcí se nepoužívají aktivní efekty. (vyžaduje znovunačtení)"
+    },
+    "showSpecialActions": {
+      "name": "Zobrazit základní akce",
+      "hint": "V sekci hlavní akce se zobrazí základní akce v sekci hlavní akce. (Uhýbání, Sprint, Odpoutání se, Schování se, Příprava, Strčit)"
+    },
+    "macroPanel": {
+      "name": "Lišta maker",
+      "hint": "Zobrazí lištu makra pro každou postavu, který zrcadlí makra na rychlé liště maker"
+    }
+    },
+        "hud": {
+    "mainactions": "Hlavní akce",
+    "castspell": "Seslat kouzlo",
+    "usepower": "Použít schopnost",
+    "useitem": "Použít položku",
+    "bonusaction": "Bonus",
+    "reaction": "Reakce",
+    "specialaction": "Volná",
+    "pass": "Přeskočit",
+    "endturn": "Konec tahu",
+    "hp": "BV",
+    "ac": "OČ",
+    "of": "z",
+    "inventory": "Inventář",
+    "saves": "Záchrany",
+    "skills": "Dovednosti",
+    "tools": "Nástroje",
+    "spells": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "cantrip": "",
+        "innate": "",
+        "pact": "",
+        "will": ""
+    }
+    },
+        "items": {
+    "disengage": {
+        "name": "Odpoutat se",
+        "desc": "<p>Pokud provedeš akci Odpoutat se, tvůj pohyb po zbytek kola nevyvolává příležitostné útoky.</p>"
+    },
+    "hide": {
+        "name": "Schování se",
+        "desc": "<p>Když provedeš akci Schování se, hodíš si na Obratnost (Nenápadnost) ve snaze se schovat podle pravidel dle skrytí. Pokud uspěješ, získáš určité výhody.</p>\n<p data-content-chunk-id=\"d49da437-9800-4cdb-be60-5c1cc12e45f2\">Bojovníci se často snaží uniknout pozornosti svých nepřátel tím, že se schovají, sešlou kouzlo Neviditelnost, nebo se schovávají ve tmě.</p>\n<p data-content-chunk-id=\"c7a62036-4c31-4a7f-bd29-db5f4a873f8c\">Když útočíš na cíl, který nevidíš, máš Nevýhodu na hod na útok. To platí, ať už hádáš polohu cíle, nebo když útočíš na tvora, kterého slyšíš, ale nevidíš. Pokud cíl není na místě, na které útočíš, automaticky mineš, ale GM obvykle pouze oznámují, že útok minul, aniž by upřesnili, zda byla uhádnuta správná poloha.</p>\n<p data-content-chunk-id=\"760a7b7d-7681-4f2c-a356-05594eca1bbd\">Když tě tvor nevidí, máš na útok proti němu Výhodu. Pokud jsi skrytý--neviděný a neslyšený--a provedeš útok, prozradíš svou polohu, ať už útok zasáhne, nebo mine.</p><p>&nbsp;</p>"
+    },
+    "shove": {
+        "name": "Strčit",
+        "desc": "<p data-content-chunk-id=\"5242445d-e04b-437b-b1c4-4fef6622c350\">Když chceš bytost chytit, nebo s ní zápasit, můžeš použít akci Útok k provedení speciálního útoku na blízko = zápas. Pokud máš více útoků pro akci Útok, tento útok nahrazuje jeden z nich.</p>\n<p data-content-chunk-id=\"55b5838a-271d-4cb3-b971-9769a49a921c\">Cíl zápasu nesmí být o více než jednu velikost větší než ty a musí být v dosahu. Pomocí alespoň jedné volné ruky se pokusíš sevřít cíl hodem na Sílu (Atletiku) proti soupeřovu hodu na Sílu (Atletiku), nebo na Obratnost (Akrobacii) (cíl si vybere vlastnost, kterou použije). Uspěješ automaticky, pokud je cíl zneschopněný. Pokud uspěješ, udělí cíli stav uchvácený. Stav specifikuje, co jej ukončí, a ty můžeš cíl kdykoliv pustit (není třeba žádná akce).</p>\n<p data-content-chunk-id=\"a5d87cfc-afcc-4ae2-99c4-b4ed2af6a439\">Únik ze zápasu. Zadržená bytost může použít akci k úniku. K tomu musí uspět v hodu na Sílu (Atletiku) nebo Obratnost (Akrobacii) proti tvému hodu na Sílu (Atletiku).</p>\n<p data-content-chunk-id=\"ea1b3c54-b95f-45cb-8c5c-1ed310d82ce2\">Pohyb se zadrženou bytostí. Když se pohybuješ, můžeš s sebou zadrženou bytost táhnout, nebo nést, ale tvá Rychlost se sníží na polovinu, pokud bytost není alespoň o dvě velikosti menší než ty.</p>\n<h4 id=\"ShovingaCreature\" data-content-chunk-id=\"5b230975-10b4-4cd0-bd03-2770875c21e5\">Strčit</h4>\n<p data-content-chunk-id=\"f4e214a2-2779-43c0-b318-23f5e5c47a9f\">Pomocí akce Útok můžeš provést speciální útok na blízko a strčit bytost, buď kvůli sražení na zem, nebo jejímu odtlačení od tebe. Pokud máš více útoků s akcí Útok, tento útok nahrazuje jeden z nich.</p>\n<p data-content-chunk-id=\"d6bd6c9e-bda0-4b45-a5be-f9425e23783c\">Cíl nesmí být o více než jednu velikost větší než ty a musí být v dosahu. Místo hodu na útok hodíš na Sílu (Atletiku) proti hodu cíle na Sílu (Atletiku), nebo Obratnost (Akrobacii) (cíl si vybere vlastnost, kterou použije). Uspěješ automaticky, pokud je cíl zneschopněný. Pokud uspěješ, buď cíl srazíš na zem, nebo jej odtlačíš o 1,5 metru od sebe.</p>"
+    },
+    "dash": {
+        "name": "Sprint",
+        "desc": "<p data-content-chunk-id=\"32f25854-3ca6-4afe-8790-0a87b06879b1\">Když provedeš akci Sprint, získáš dodatečný pohyb v aktuálním kole. Zvýšení se rovná tvé Rychlosti, po započítání všech oprav. Pokud máš například rychlost 30 stop, můžeš se, pokud sprintuješ, ve svém kole pohnout o až 60 stop.</p>\n<p data-content-chunk-id=\"8587443b-c938-455a-9861-09e5af6a9629\">Každé zvýšení nebo snížení Rychlosti ovlivní tento dodatečný pohyb stejnou měrou. Pokud je tvá rychlost ze 30 stop snížena na 15 stop, můžeš se, pokud sprintuješ, toto kolo pohybovat až o 30 stop.</p>"
+    },
+    "dodge": {
+        "name": "Uhýbání",
+        "desc": "<p>Pokud provedeš akci Uhýbání, soustředíš se pouze na vyhýbání se útokům. Pokud útočníka vidíš, do začátku svého dalšího tahu má každý útok proti tobě Nevýhodu a máš Výhodu na záchranné hody na Obratnost. O tuto výhodu přijdeš, pokud jsi zneschopněn, nebo pokud se tvá Rychlost sníží na 0.</p>"
+    },
+    "ready": {
+        "name": "Příprava",
+        "desc": "<p data-content-chunk-id=\"7cbedb62-3df7-482e-9bee-412289356aca\">Někdy chceš získat převahu nad nepřítelem, nebo čekat na konkrétní okolnosti, než budeš jednat. K tomu můžeš ve svém tahu provést akci Příprava, což ti umožní jednat pomocí své Reakce před začátkem tvého dalšího tahu.</p>\n<p data-content-chunk-id=\"ef9f90d3-f264-4278-a0f8-0684073c429f\">Nejprve určíš, která vnímatelná okolnost spustí tvou reakci. Poté vybereš akci, kterou podnikneš jako odpověď na tuto okolnost, nebo se rozhodneš jako odpověď na tuto okolnost pohybovat se až do své Rychlosti. Příklady zahrnují „Pokud kultista šlápne na padací dveře, zatáhnu za páku, která je otevře,“ nebo „Pokud se goblin přiblíží ke mně, ustoupím.“</p>\n<p data-content-chunk-id=\"6c8b0166-9e42-42fa-9ef6-6c01381032c9\">Když nastane spouštěč, můžeš buď provést svou reakci hned po skončení spouštěče, nebo jej ignorovat. Pamatuj, že můžeš provést pouze jednu Reakci za kolo.</p>\n<p data-content-chunk-id=\"2783c1c8-74e2-4b36-8eb7-2a7c4ea671e3\">Když si připravíš kouzlo, sesíláš ho jako obvykle, ale energii zadržuješ, dokud nepoužiješ svou Reakci, když nastane spouštěč. Aby mohlo být připraveno, kouzlo musí mít čas seslání 1 akci, a udržování kouzla vyžaduje soustředění. Pokud se tvé soustředění přeruší, kouzlo se rozplyne bez efektu. Například, pokud se soustředíš na kouzlo a připravíš si nově Magickou střelu, tvé soustředění skončí. A pokud utrpíš zranění před vypuštěním Magické střely pomocí své Reakce, může se tvé soustředění přerušit.</p>"
+    }
+    },
+    "skills": {
+        "acr": {
+        "tooltip": "Tvé ověření Obratnosti (Akrobacie) pokrývá pokusy udržet se na nohou v náročné situaci, jako když se snažíš přeběhnout přes ledovou plochu, balancovat na provaze, nebo zůstat stát na houpající se palubě lodi. GM může také požadovat ověření Obratnosti (Akrobacie), aby zjistil, zda dokážeš provádět akrobatické kousky jako skoky, kotouly, přemety a salta."
+    },
+        "ani": {
+        "tooltip": "Když jde o to, zda dokážeš uklidnit domestikované zvíře, udržet jízdní zvíře v klidu, nebo vycítit úmysly zvířete, GMJ může požadovat ověření Moudrosti (Ovládání zvířat). Ověření Moudrosti (Ovládání zvířat) provádíš i za situací, kdy se pokoušíš o riskantní manévr s jízdním zvířetem."
+    },
+        "arc": {
+        "tooltip": "Tvé ověření Inteligence (Mystiky) měří tvou schopnost vybavit si znalosti o kouzlech, magických předmětech, podivných symbolech, magických tradicích, rovinách existence a obyvatelích těchto rovin."
+    },
+        "ath": {
+        "tooltip": "<p>Tvé ověření Síly (Atletiky) pokrývá obtížné situace, kterým čelíš při lezení, skákání nebo plavání. Příklady zahrnují následující činnosti:</p><ul><li>Pokoušíš se vyšplhat na strmou, nebo kluzkou skálu, vyhýbat se překážkám při šplhání po zdi, nebo se držet na povrchu, zatímco se tě něco snaží shodit.</li>↵<li>Pokoušíš-li se skočit neobvykle daleko, nebo provést trik během skoku.</li><li>Bojuješ-li s plaváním, nebo udržením se na hladině v nebezpečných proudech, bouřlivých vlnách, nebo v oblastech s hustým mořským trávníkem. Nebo když se tě jiná bytost snaží zatáhnout pod vodu, nebo jinak ti bránit v plavání.</li>↵</ul>"
+    },
+        "dec": {
+        "tooltip": "Tvé ověření Charismatu (Klamání) určuje, zda dokážeš přesvědčivě skrýt pravdu, buď slovně, nebo svými činy. Toto klamání může zahrnovat vše od jemných nejednoznačností až po vyložené lži. Typické situace zahrnují pokusy o rychlý rozhovor s hlídačem, oklamání obchodníka, vydělávání peněz hazardem, předstírání někoho jiného v přestrojení, utišení něčího podezření falešnými zárukami, nebo udržení vážné tváře při vyprávění očividné lži."
+    },
+        "his": {
+        "tooltip": "Tvé ověření Inteligence (Historie) měří tvou schopnost vybavit si znalosti o historických událostech, legendárních osobnostech, starobylých královstvích, minulých sporech, nedávných válkách a ztracených civilizacích."
+    },
+        "ins": {
+        "tooltip": "Tvé ověření Moudrosti (Vhledu) určuje, zda dokážeš zjistit skutečné úmysly bytosti, například když odhaluješ lež, nebo předpovídáš něčí další krok. Tím se rozumí získávání náznaků z neverbální komunikace, zvyklostí v řeči a změn v chování."
+    },
+        "itm": {
+        "tooltip": "Když se pokoušíš ovlivnit někoho prostřednictvím otevřených hrozeb, nepřátelských akcí a fyzického násilí, může tě GM požádat, abys provedl ověření Charismanu (Zastrašování). Příklady zahrnují snahu získat informace od vězně, přesvědčit pouliční rváče, aby ustoupili z konfrontace, nebo použít okraj rozbité láhve k přesvědčení posměšného vezíra, aby přehodnotil své rozhodnutí."
+    },
+        "inv": {
+        "tooltip": "Ověření Inteligence (Vyšetřování) posuzuje tvou schopnost hledat stopy a vyvodit závěry na základě těchto stop. Můžeš například dedukovat umístění skrytého objektu, rozpoznat podle vzhledu rány, jaký typ zbraně ji způsobil, nebo určit nejslabší místo v tunelu, které by mohlo způsobit jeho zhroucení. I procházení starověkých svitků v hledání skrytého fragmentu znalostí může vyžadovat ověření Inteligence (Vyšetřování)."
+    },
+        "med": {
+        "tooltip": "Ověření Moudrosti (Lékařství) ti umožňuje pokusit se stabilizovat umírajícího společníka, nebo diagnostikovat nemoc."
+    },
+        "nat": {
+        "tooltip": "Ověření Inteligence (Přírody) měří tvou schopnost si vybavit znalosti o terénu, rostlinách a zvířatech, počasí a přírodních cyklech."
+    },
+        "prc": {
+        "tooltip": "Ověření Moudrosti (Vnímání) ti umožní spatřit, slyšet, nebo jinak odhalit přítomnost něčeho. Měří obecnou pozornost k okolí a ostrost tvých smyslů. Například se můžeš pokusit zaslechnout konverzaci za zavřenými dveřmi, odposlouchávat pod otevřeným oknem, nebo zaslechnout nestvůry tiše se pohybující v lese. Také se můžeš snažit spatřit věci, které jsou skryté, nebo snadno přehlédnutelné, ať už jde o orky číhající v záloze na cestě, zločince skrývajícího se ve stínech uličky, nebo svíčku prosvítající zpoza zavřených tajných dveří."
+    },
+        "prf": {
+        "tooltip": "Ověření Charismatu (Umění) určuje, jak dobře dokážeš potěšit publikum hudbou, tancem, herectvím, vyprávěním příběhů, nebo jinou formou zábavy."
+    },
+        "per": {
+        "tooltip": "Když se pokoušíš ovlivnit někoho, nebo skupinu lidí taktem, společenskou grácií, nebo dobrou povahou, může GM požádat o provedení ověření Charismatu (Přesvědčování). Přesvědčování se obvykle používá, když jednáš v dobré víře, abys podpořil(a) přátelství, zdvořile žádal(a), nebo projevil(a) správnou etiketu. Příklady přesvědčování zahrnují přesvědčení komořího, aby nechal družinu spatřit krále, vyjednávání o míru mezi válčícími kmeny, nebo inspirování davu měšťanů."
+    },
+        "rel": {
+        "tooltip": "Tvé ověření Inteligence (Náboženství) měří tvou schopnost si vybavit znalosti o božstvech, rituálech a modlitbách, náboženských hierarchiích, svatých symbolech a praktikách tajných kultů."
+    },
+        "slt": {
+        "tooltip": "Kdykoli se pokoušíš o zručný čin, nebo ruční trik. Například něco na někoho umístit, nebo skrýt předmět na své osobě, proveď ověřní Obratnosti (Čachrů). GM může požádat o ověření Obratnosti (Čachrů), také aby určil, zda dokážeš ukrást měšec s mincemi jinému člověku, nebo vytáhnout něco z kapsy jiného člověka."
+    },
+        "ste": {
+        "tooltip": "Ověření Obratnosti (Nenápadnosti) provádíš, když se pokoušíš skrýt se před nepřáteli, projít kolem stráží, nenápadně se vytratit, nebo se přiblížit k někomu, aniž bys byl viděn, nebo slyšen."
+    },
+        "sur": {
+        "tooltip": "GM tě může požádat, abys provedl ověření Moudrosti (Přežití), když se pokoušíš sledovat stopy, lovit divokou zvěř, vést svou skupinu mrazivými pustinami, identifikovat známky přítomnosti sovodvědů v okolí, předpovědět počasí, nebo se vyhnout písečné bouři a dalším přírodním nebezpečím."
+    }
+    },
+    "abilities": {
+        "str": {
+        "tooltip": "<p>Síla měří tělesnou sílu, atletický trénink a míru, do jaké dokážeš vyvinout čistou fyzickou sílu.</p><p><strong>Ověření Síly</strong><br/>Ověření Síly může modelovat jakýkoli pokus zvednout, tlačit, táhnout, nebo rozbít něco. Protlačit své tělo skrze prostor, nebo jinak aplikovat hrubou sílu. Dovednost Atletika odráží schopnosti v určitých typech ověření Síly.</p><p><strong>Další ověření Síly</strong><br/>GM může také požádat o ověření Síly, když se pokoušíš splnit další úkoly, třeba následující:<ul><li>Otevřít zaseknuté, zamčené, nebo zabarikádované dveře</li><li>Vysvobodit se z pout</li><li>Protlačit se skrze tunel, který je příliš malý</li><li>Udržet se vozu, zatímco jsi táhnut za ním</li><li>Převrátit sochu</li><li>Udržet balvan, aby se neodvalil</li></ul></p><p><strong>Zvedání a nesení</strong><br/> Tvoje hodnota Síly určuje množství váhy, kterou můžeš unést. Následující termíny definují, co můžeš zvednout, nebo nést.</p><p><strong>Nosnost.</strong> Tvoje nosnost je tvá hodnota Síly vynásobená 15. To je váha (v librách), kterou můžeš nosit, což je dostatečně vysoké, aby se většina postav obvykle nemusela ničeho obávat.</p><p><strong>Tlačení, tahaní, nebo zvedání.</strong> Můžeš tlačit, táhnout, nebo zvedmout váhu v librách až dvakrát převyšující tvou Nosnost (nebo 30krát tvoji hodnotu Síly). Když tlačíš, nebo táhneš váhu přesahující tvou nosnost, tvoje Rychlost klesá na 5 stop.</p><p><strong>Velikost a Síla.</strong> Větší bytosti mohou unést více váhy, zatímco malé bytosti mohou nést méně. Pro každou velikost kategorie nad střední zdvojnásob nosnost bytosti a množství, které může tlačit, táhnout, nebo zvedat. Pro malé bytosti tyto váhy zmenši na polovinu.</p>"
+    },
+        "dex": {
+        "tooltip": "<p>Obratnost měří hbitost, reflexy a rovnováhu.</p><p><strong>Ověření Obratnosti</strong><br/>Ověření Obratnosti může modelovat jakýkoli pokus pohybovat se obratně, rychle, nebo tiše, nebo se udržet na nohou na kluzkém terénu. Dovednosti Akrobacie, Čachry a Nenápadnost odráží schopnosti v určitých typech ověření Obratnosti.</p><p><strong>Další ověření Obratnosti</strong><br/>GM může požádat o ověření Obratnosti, když se pokoušíš splnit úkoly jako následující:<ul><li>Ovládat silně naložený vůz na strmém svahu</li><li>Řídit vůz do ostré zatáčky</li><li>Otevřít zámek</li><li>Deaktivovat past</li><li>Bezpečně svázat vězně</li><li>Uvolnit se z pout</li><li>Hrát na strunný nástroj</li><li>Vytvořit malý, nebo detailní objekt</li></ul></p><p><strong>Obranné číslo</strong><br/>V závislosti na zbroji, kterou nosíš, můžeš přidat část, nebo celou opravu Obratnosti ke svému OČ, jak je popsáno v kapitole 5, <a class='entity-link' data-pack='dnd5e.rules' data-id='ln4KF7662eP93keD'>Vybavení</a></p><p><strong>Iniciativa</strong><br/>Na začátku každého boje házíš iniciativu provedením ověření Obratnosti. Iniciativa určuje pořadí tahů bytostí v boji, jak je popsáno v kapitole 9, <a class='entity-link' data-pack='dnd5e.rules' data-id='3V8ywGHQEpbZpsIL'>Boj.</a>"
+    },
+        "con": {
+        "tooltip": "<p>Odolnost měří zdraví, výdrž a životní sílu.</p><p><strong>Ověření Odolnosti</strong><br/>Ověření odolnosti jsou neobvyklé a žádné dovednosti se na ně nevztahují, protože výdrž, kterou tato schopnost představuje, je většinou pasivní a nezahrnuje konkrétní úsilí ze strany postavy či bytosti. Ověření Odolnosti může modelovat tvůj pokus překonat normální limity.</p><p>GM může požádat o ověření Odolnosti, když se pokoušíš splnit úkoly jako následující:<ul><li>Zadržet dech</li><li>Pochodovat, nebo pracovat hodiny bez odpočinku</li><li>Obstát bez spánku</li><li>Přežít bez jídla, nebo vody</li><li>Vypít celou holbu piva na jeden zátah</li></ul></p><p><strong>Body výdrže</strong><br/>Tvá oprava Odolnosti přispívá k tvým bodům výdrže. Obvykle přidáváš svou opravu Odolnosti ke každému hodu kostek obnovy, které házíš pro své body výdrže.</p><p>Pokud se tvá oprava Odolnosti změní, změní se také tvé maximum bodů výdrže, jako bys měl novou opravu od 1. úrovně. Například pokud zvýšíš svou hodnotu Odolnosti, když dosáhneš 4. úrovně, a tvá oprava Odolnosti se zvýší z +1 na +2, upravíš své maximum bodů výdrže, jako by byl modifikátor vždy +2. Takže přidáš 3 BV za své první tři úrovně a poté hodíš na své body výdrže za 4. úroveň pomocí nové opravy. Nebo pokud jsi 7. úrovně a nějaký efekt sníží tvou hodnotu Odolnosti, což sníží tvou opravu Odolnosti o 1, tvé maximum BV se sníží o 7.</p>"
+    },
+        "int": {
+        "tooltip": "<p>Inteligence měří duševní bystrost, přesnost vzpomínek a schopnost uvažovat.</p><p><strong>Ověření Inteligence</strong><br/>Ověření Inteligence se uplatňuje, když potřebuješ využít logiku, vzdělání, paměť, nebo deduktivní uvažování. Dovednosti Mystika, Historie, Vyšetřování, Příroda a Náboženství odrážejí způsobilost v určitých typech ověření Inteligence.</p><p><strong>Další ověření Inteligence</strong><br/>GM může požádat o ověření inteligence, když se pokoušíš splnit úkoly, jako jsou následující:<ul><li>Komunikovat s bytostí bez použití slov</li><li>Odhadnout hodnotu cenného předmětu</li><li>Připravit si převlek, abys mohl projít jako městská hlídka</li><li>Padělat dokument</li><li>Vzpomínat si na znalosti o řemesle, nebo obchodu</li><li>Vyhrát znalostní hru</li></ul></p>"
+    },
+        "wis": {
+        "tooltip": "<p>Moudrost odráží, jak jsi v souladu se světem kolem sebe, a představuje vnímavost a intuici.</p><p><strong>Ověření Moudrosti</strong>Ověření Moudrosti může odrážet snahu číst řeč těla, porozumět něčím pocitům, všímat si věcí v prostředí, nebo pečovat o zraněnou osobu. Dovednosti Ovládání zvířat, Vhled, Lékařství, Vnímání a Přežití odrážejí způsobilost v určitých typech ověření Moudrosti.</p><p><strong>Další ověření Moudrosti</strong></br>GM může požádat o ověření Moudrosti, když se pokoušíš splnit úkoly, jako jsou následující:<ul><li>Dostat pocit, jakým směrem se akce vyvine</li><li>Rozlišit, zda je zdánlivě mrtvá, nebo naopak živá bytost nemrtvá</li></ul></p>"
+    },
+        "cha": {
+        "tooltip": "<p>Charisma měří tvou schopnost efektivně komunikovat s ostatními. Zahrnuje takové faktory, jako jsou sebevědomí a výmluvnost a může představovat okouzlující, nebo dominantní osobnost.</p><p><strong>Další ověření Charismatu</strong><br/>GM může požádat o ověření Charismatu, když se pokoušíš splnit úkoly, jako jsou následující:<ul><li>Najít nejlepšího člověka, se kterým si lze promluvit o zprávách, drbech a pomluvách</li><li>Splynout s davem, abys získal přehled o klíčových tématech konverzace</li></ul></p>"
+    }
+    },
+    "tooltip": {
+        "target": {
+        "name": "Cíl"
+    },
+        "range": {
+        "name": "Dostřel"
+    },
+        "properties": {
+        "name": "Parametry"
+    },
+        "toHit": {
+        "name": "Na zásah"
+    },
+        "damage": {
+        "name": "Poškození"
+    }
+    },
+    "itemconfig": {
+        "set1p": {
+        "text": ""
+    },
+        "set1s": {
+        "text": ""
+    },
+        "set2p": {
+        "text": ""
+    },
+        "set2s": {
+        "text": ""
+    },
+        "set3p": {
+        "text": ""
+    },
+        "set3s": {
+        "text": ""
+    },
+        "sets": {
+        "text": ""
+    }
+    }   
+},
+
+
+
+
+
+
+"REST-RECOVERY": {
+    "JournalUuids": {
+    "Exhaustion": "Compendium.rest-recovery.exhaustion.JournalEntry.TqAqEUUR8LyEDi7q.JournalEntryPage.epHJRWnHvCPA8WKF"
+    },
+  "ClassNames": {
+    "Wizard": "Kouzelník",
+    "Druid": "Druid",
+    "Bard": "Bard"
+  },
+  "Warnings": {
+    "PreventedLongRest": "Nemůžeš si důkladně odpočinout, protože jsi pod efektem, který ti to znemožňuje!",
+    "NotPromptedLongRest": "GM nastavil tuto hru tak, že nemůžeš začít důkladný krátký odpočinek bez vyzvání!",
+    "ItemNoUses": "\"{item}\" už nemá žádné použití, takže nemůže být použito."
+  },
+  "FeatureNames": {
+    "ArcaneRecovery": "Zotavení mystiky",
+    "NaturalRecovery": "Přírodní obnova",
+    "PowerSurge": "Mocná vlna",
+    "SongOfRest": "Odpočinková píseň",
+    "ChefFeat": "Kuchař",
+    "ChefTools": "Kuchařské nástroje",
+    "PeriaptItem": "Škapulíř hojení ran",
+    "WoundClosureBlessing": "Požehnání hojení ran",
+    "DurableFeat": "Otužilec",
+    "BlackBloodFeature": "Léčení černé Krve"
+  },
+  "OneDnDExhaustionEffect": {
+    "Name": "Vyčerpání (DnD 2024)",
+    "Description": "Při vyčerpání se v DnD 2024 bytost trpí kumulativními -1 postihy za každou úroveň vyčerpání na všechny hody d20 (hody na útok, ověření vlastností i dovedností a záchranné hody) a SO kouzel. Když bytost dosáhne 10 úroveň vyčerpání, umírá."
+  },
+  "PatchedRecovery": "{actorName} s {recoveryName} byl ošetřen.",
+  "PatchedConsumable": "Aktualizováno použití {itemName}.",
+  "Fractions": {
+    "None": "Žádná",
+    "Quarter": "Čtvrtina",
+    "Half": "Polovina",
+    "Full": "Celá",
+    "Custom": "Vlastní vzorec"
+  },
+  "RollFormula": {
+    "Normal": "Normální",
+    "Advantage": "Výhoda",
+    "Maximized": "Maximalizováno"
+  },
+  "Currencies": {
+    "Copper": "měďák",
+    "Electrum": "elektrum",
+    "Gold": "zlato",
+    "Platinum": "platina",
+    "Silver": "stříbro"
+  },
+  "Rounding": {
+    "RoundDown": "Zaokrouhleno dolů",
+    "RoundUp": "Zaokrouhleno dhoru"
+  },
+  "Misc": {
+    "Food": "Jídlo",
+    "Water": "Tekutiny",
+    "Both": "Obojí"
+  },
+  "NumberToText": {
+    "1": "Jedna",
+    "2": "Dvě",
+    "3": "Tři",
+    "4": "Čtyři",
+    "5": "Pět",
+    "1st": "1.",
+    "2nd": "2.",
+    "3rd": "3.",
+    "4th": "4.",
+    "5th": "5."
+},
+  "Chat": {
+    "RegainedUses": "Navíc si obnovili následující:",
+    "SpellSlotList": "pozice kouzla {number} na {level} úrovni",
+    "SpellSlotListPlural": "pozice kouzel {number} na {level} úrovni",
+    "RecoveryNameNum": "{name} si obnovil/a {number} použití",
+    "SongOfRest": "{name} si užívá {bard}ovu {songOfRestName}.",
+    "SongOfRestSelf": "{name} si užívá svou vlastní {songOfRestName}.",
+    "Chef": "{name} si pochutnává na skvělém jídle od {chef}.",
+    "ChefSelf": "{name} si pochutnává na svém vlastním skvělém jídle.",
+    "ConsumedBothDayWorth": "{actorName} spotřeboval/a {itemName}, celodenní dávku jídla a tekutin.",
+    "ConsumedBoth": "{actorName} spotřeboval/a {itemName} pro {charges} jednotek jídla a tekutin.",
+    "ConsumedFoodDayWorth": "{actorName} snědl/a {itemName}, celodenní dávku jídla.",
+    "ConsumedFood": "{actorName} snědl/a {itemName} pro {charges} jednotek jídla.",
+    "ConsumedWaterDayWorth": "{actorName} vypil/a {itemName}, celodenní dávku tekutin.",
+    "ConsumedWater": "{actorName} vypil/a {itemName} pro {charges} jednotek tekutin.",
+    "RequiredSatedFood": "Potřebuje {units} jednotek jídla, aby byl/a sytý/á na celý den.",
+    "RequiredSatedWater": "Potřebuje {units} jednotek tekutin, aby byl/a sytý/á na celý den.",
+    "SatedFood": "Už není třeba žádné další jídlo.",
+    "SatedWater": "Už není třeba žádných dalších tekutin.",
+    "FoodFullNone": "Snědl/a dostatek svého vlastního jídla, aby byl/a sytý/á.",
+    "FoodHalfNone": "Snědl/a část svého vlastního jídla, ale jen polovinu potřebného množství.",
+    "FoodHalfHalf": "Snědl/a něco z externího zdroje a část svého jídla, aby byl/a sytý/á.",
+    "FoodNoneFull": "Snědl/a dostatek jídla z externího zdroje, aby byl/a sytý/á.",
+    "FoodNoneHalf": "Snědl/a něco z externího zdroje, ale jen polovinu potřebného množství.",
+    "FoodNoneNone": "Nic nejedl/a.",
+    "WaterFullNone": "Vypil/a dostatek své vlastní tekutiny, aby byl/a sytý/á.",
+    "WaterHalfNone": "Vypil/a část svých vlastní tekutin, ale jen polovinu potřebného množství.",
+    "WaterHalfHalf": "Vypil/a něco z externího zdroje a část svých tekutin, aby byl/a sytý/á.",
+    "WaterNoneFull": "Vypil/a dostatek tekutin z externího zdroje, aby byl/a sytý/á.",
+    "WaterNoneHalf": "Vypil/a něco z externího zdroje, ale jen polovinu potřebného množství.",
+    "WaterNoneNone": "Nic nepil/a.",
+    "NoExhaustion": "ale vyhnul/a se vyčerpání.",
+    "Exhaustion": "Utrpěl/a {exhaustion} úrovně vyčerpání.",
+    "ExhaustionDeath": "Bohužel, {actorName} dosáhl/a {max_levels} úrovní vyčerpání a zemřel/a.",
+    "ExhaustionArmor": "Rozhodl/a se nechat si zbroj a neobnovil/a si žádné vyčerpání.",
+    "HitDiceArmor": "Obnovil/a si méně kostek obnovy než obvykle, protože odpočíval/a ve zbroji.",
+    "NoHitDiceArmor": "Neobnovil/a si žádné kostky obnovy, protože odpočíval/a ve zbroji.",
+    "HitDiceNoArmor": "Rozhodl/a se odpočívat bez zbroje a obnovil/a si běžný počet kostek obnovy.",
+    "PreventedHitDiceRecovery": "Protože byly během důkladného odpočinku kostky obnovy použity, neobnovily se žádné kostky obnovy.",
+    "CouldNotLongRest": "{actorName} si nemohl/a důkladně odpočinout.",
+    "CouldNotShortRest": "{actorName} si nemohl/a krátce odpočinout.",
+    "Flavor": {
+      "ShortRestNormal": "Krátký odpočinek ({duration} {units})",
+      "LongRestNormal": "Důkladný odpočinek ({duration} {units})",
+      "ShortRestNewday": "Krátký odpočinek (Nový Den)"
+    },
+    "AlternateShortRestResult": "{name} si krátce odpočinul(a) a obnovil/a {health} bodů výdrže.",
+    "TidyChanged": "Obnovení změnilo nastavení zobrazení vyčerpání na deníku Tidy5e:",
+    "TidyTypeChanged": "Typ vyčerpání změněn z {oldType} na {newType}.",
+    "TidyHintsChanged": "Vlastní nápovědy úrovní byly odstraněny.",
+    "TidyLevelsChanged": "Úrovně vyčerpání změněny z {oldLevels} na {newLevels}."
+},
+  "Dialogs": {
+    "SaveProfile": {
+    "Title": "Vytvoření nového profilu",
+    "Enter": "Zadej název přednastavení:",
+    "OverrideProfile": "Nový profil nemůže mít stejný název jako starý profil",
+    "Empty": "Nový profil nemůže mít prázdný název"
+},
+  "DiscardChanges": {
+    "Title": "Neuložené změny",
+    "Content": "Máš v tomto profilu neuložené změny. Opravdu chceš přepnout na jiný profil?"
+},
+  "ResetDefaultChanges": {
+    "Title": "Obnovení výchozího nastavení",
+    "Content": "Opravdu chceš obnovit výchozí nasavení profilu \"Výchozí\"?"
+},
+  "DeleteProfile": {
+    "Title": "Smazání profilu",
+    "Content": "Opravdu chceš smazat profil \"{profile}\"?"
+},
+  "QuickSetup": {
+    "Title": "Odpočívání: Rychlé nastavení",
+    "SlowNaturalHealingTitle": "Pomalé přirozené léčení",
+    "SlowNaturalHealingLabel": "Postavy na konci důkladného odpočinku nezískají body výdrže. Místo toho musí pro léčení utratit kostky obnovy jako při krátkém odpočinku.",
+    "RecoverHitDiceTitle": "Obnovení kostek obnovy před důkladným odpočinkem",
+    "RecoverHitDiceLabel": "Změní pomalé přirozené léčení tak, že postavy obnoví své kostky obnovy po začátku důkladného odpočinku, a ne na jeho konci.",
+    "OpenSettings": "Otevřít nastavení",
+    "5eRestCustom": {
+      "Title": "Vlastní nastavení (nastav si vlastní hodnoty)",
+      "LongRestCustomTitle": "Délka důkladného odpočinku v hodinách",
+      "ShortRestCustomTitle": "Délka krátkého odpočinku v hodinách"
+  }
+},
+  "PromptRest": {
+    "Title": "Výzva k odpočinku pro hráče",
+    "ConfigureProfiles": "Nastavit profily",
+    "Short": "Krátký odpočinek",
+    "Long": "Důkladný odpočinek",
+    "NewDayTitle": "Nový den",
+    "NoNewDayTitle": "Není nový den",
+    "NewDayHint": "Toto způsobí, že postavy, které dokončí odpočinek, obnoví schopnosti, které se obnovují na denní bázi.",
+    "NewDaySimpleCalendarHint": "Podle vyběru níže postavy, které dokončí odpočinek, si obnoví schopnosti, které se obnovují na denní bázi. Řídí to modul <strong>Simple Calendar</strong>.",
+    "NoNewDaySimpleCalendarHint": "Ani důkladný, ani krátký odpočinek nevyústí v nový den, takže postavy po nich <strong>neobnoví</strong> schopnosti, které se obnovují na denní bázi. TŘídí si to modul <strong>Simple Calendar</strong>.",
+    "NewDay": "(nový den)",
+    "Submit": "Potvrdit",
+    "PlayerListShort": "Odpočinek",
+    "PlayerListFull": "Výzva k odpočinku",
+    "PromptCharactersRest": "Výzva postavám hráčů k odpočinku",
+    "RestProfile": "Profil odpočinku"
+},
+  "ShortRest": {
+    "ForcedNewDayTitle": "Nový den",
+    "ForcedNewDayHint": "Nastává nový den, takže tento krátký odpočinek obnoví schopnosti, které se obnovují na denní bázi.",
+    "NoHitDiceRest": "Chceš si dát krátký odpočinek? Během krátkého odpočinku můžeš obnovit primární, nebo sekundární zdroje.",
+    "NoMoreRests": "Žádné další krátké odpočinky",
+    "NoMoreRestsSmall": "Nemůžeš již více krátce odpočívat, pravidla hry povolují maximálně <strong>{max_short_rests}</strong> na jeden důkladný odpočinek.",
+    "ShortRestLimit": "Můžeš <strong>{num_short_rests}</strong> krátkých odpočinků, než budeš muset absolvovat důkladný odpočinek.",
+    "ShortRestLimitSmall": "Pravidla hry povolují maximálně <strong>{max_short_rests}</strong> na jeden důkladný odpočinek.",
+    "AutoRoll": "Automatický hod",
+    "MinHitDiceSpend": "Abys dokončil tento krátký odpočinek, musíš utratit <strong>{min_spend}</strong> kostky obnovy.",
+    "MaxHitDiceSpend": "Během tohoto krátkého odpočinku můžeš utratit pouze <strong>{max_spend}</strong> kostek obnovy, (<strong>{current}</strong> zbývá).",
+    "FinishRest": "Dokončit krátký odpočinek"
+},
+    "RestHealthWarning": {
+      "Title": "Dokončit odpočinek?",
+      "Content": "Neutratil jsi žádné kostky obnovy na obnovení výdrže, opravdu chceš odpočinek dokončit?"
+},
+  "RestSpendHitDice": {
+    "Title": "Utratit kostky obnovy?",
+    "Content": "Aby byl tento odpočinek dokončen, musíš utratit alespoň {num_dice} kostek obnovy. Opravdu chceš pokračovat?"
+},
+  "RestNoHitDice": {
+    "Title": "Už nezbývají žádné kostky obnovy",
+    "Content": "Aby byl tento odpočinek dokončen, musíš utratit alespoň {num_dice} kostek obnovy, ale žádné ti nezbývají."
+},
+  "LongRest": {
+    "ForcedNewDayTitle": "Nový den",
+    "ForcedNewDayHint": "Začíná nový den, takže tento důkladný odpočinek obnoví schopnosti, které se obnovují \"per day\".",
+    "Begin": "Začít důkladný odpočinek",
+    "BeginExplanation": "Zahájením důkladného odpočinku si obnovíš některé kostky obnovy, abys je mohl použít k obnovení bodů výdrže.",
+    "CustomRules": "Hraješ s vlastními pravidly, což znamená, že můžeš obnovit body výdrže, kostky obnovy, zdroje povolání, omezené použití položek a pozice kouzel jinak.",
+    "CustomRulesLink": "Podívej se na vlastní pravidla.",
+    "MinHitDiceSpend": "Aby byl tento důkladný odpočinek dokončen, musíš utratit <strong>{min_spend}</strong> kostek obnovy.",
+    "MaxHitDiceSpend": "Během tohoto důkladného odpočinku můžeš utratit pouze <strong>{max_spend}</strong> kostek obnovy (<strong>{current}</strong> zbývá).",
+    "ArmorRecovery": "Sundat zbroj během důkladného odpočinku?",
+    "ArmorRecoveryHint": "Protože máš vybavenou těžkou zbroj, utrpíš postihy. Klikni na oranžový text vlastních pravidel, aby ses dozvěděl(a) více.",
+    "FinishRest": "Dokončit důkladný odpočinek"
+},
+  "RestSteps": {
+    "Next": "Další krok",
+    "Prev": "Předchozí krok",
+    "Rest": {
+      "Title": "Odpočinek"
+},
+  "FoodWater": {
+    "Title": "Jídlo a tekutiny",
+    "FoodRequirement": "Potřebuješ sníst další <strong>{food}</strong> jednotky jídla.",
+    "FoodSated": "Už jsi snědl dost.",
+    "FoodAlmostExhaustion": "Pokud dokončíš tento den bez toho, aby sis dal(a) plné množství jídla, automaticky utrpíš <strong>1 stupeň vyčerpání</strong> za <strong>{days} dní</strong>.",
+    "FoodExhaustion": "Protože hladovíš, automaticky utrpíš <strong>1 stupeň vyčerpání</strong>, pokud tento den dokončíš bez plného potřebného množství jídla.",
+    "ExternalFood": "Má přístup k externímu zdroji jídla",
+    "ExternalFoodFull": "Najíst se dosyta",
+    "ExternalFoodHalf": "Najíst se do půlky potřebného množství",
+    "WaterRequirement": "Potřebuješ vypít další <strong>{water}</strong> jednotky tekutin.",
+    "AmountToConsume": "Množství k vypití",
+    "WaterSated": "Už jsi vypil dost.",
+    "NoWater": "Automaticky utrpíš <strong>{exhaustion} úrovně vyčerpání</strong>, pokud tento den dokončíš s méně než polovičním potřebným množstvím tekutin.",
+    "HalfWater": "Pokud tento den dokončíš bez plného množství tekutin, musíš hodit záchranný hod na Odolnost s SO {dc}, jinak utrpíš <strong>{exhaustion} úrovně vyčerpání</strong>.",
+    "DragDrop": "Přesuň a polož položky ke spotřebování, nebo vyber:",
+    "DayWorth": "Jedno použití položky za celý den pro {type}",
+    "ExternalWater": "Má přístup k externímu zdroji tekutin",
+    "ExternalWaterFull": "Napít se dosyta",
+    "ExternalWaterHalf": "Napít se do půlky potřebného množství",
+    "ExternalCost": "Bude to stát <strong>{cost} {currency}</strong>.",
+    "CantAfford": "<strong>Nemáš dostatek prostředků na zaplacení jídla/tekutin, kterou jsi vybral - změň volbu, abys mohl tento odpočinek dokončit.</strong>"
+},
+    "SpellRecovery": {
+      "Title": "Obnova magie",
+      "SpellSlotFeature": "Obnovit pozice kouzel pomocí {featureName}",
+      "SpellSlotRule": "Obnovit pozice kouzel",
+      "SpellSlotsLeft": "Zbývá ti {spellSlotsLeft} stupňů pozic kouzel k obnovení.",
+      "NoFeatureUse": "Nemáš žádná použití {featureName}, takže během tohoto krátkého odpočinku nemůžeš obnovit žádné pozice kouzel.",
+      "FullSpells": "Máš všechny pozice kouzel, žádnou nepotřebuješ obnovovat."
+  }
+},
+  "LongRestSettingsDialog": {
+    "Title": "Nastavení důkladného odpočinku",
+    "Content": "Toto jsou nastavení, která tvůj GM nastavil pro důkladné odpočinky v této kampani."
+},
+  "CharacterOwnersOffline": {
+    "Title": "Majitelé postav offline",
+    "Content": "Majitelé následujících postav, kteří byly vyzváni k odpočinku, jsou offline. Chceš dokončit jejich odpočinek za ně?"
+},
+"Resources": {
+  "Configure": "Nastavit obnovení zdrojů",
+  "Title": "Nastavení zdrojů",
+  "Name": "Název",
+  "Value": "Hodnota",
+  "Short": "Krátký",
+  "Long": "Důkladný",
+  "RecoveryFormula": "Vzorec obnovení"
+},
+"ModuleConfig": {
+  "Title": "Nastavení obnovení a odpočinku",
+  "General": "Obecná nastavení",
+  "LongRest": "Důkladný odpočinek",
+  "ShortRest": "Krátký odpočinek",
+  "ItemNames": "Názvy schopností",
+  "FoodAndWater": "Jídlo a tekutiny",
+  "Confused": "Zmatek? Příliš mnoho možností?",
+  "QuickSetup": "Klikni sem pro rychlé nastavení!",
+  "Donate": "Pokud se ti tento modul líbí, zvaž dar na jeho podporu!",
+  "MoreToCome": "A s dalšími možnostmi konfigurace na cestě...",
+  "Request": "O nové funkce požádej zde.",
+  "Submit": "Odeslat nastavení",
+  "ModuleProfile": "Profil modulu:",
+  "ImportProfile": "Importovat profil",
+  "ExportProfile": "Exportovat profil"
+},
+  "ItemOverrides": {
+    "Title": "Obnovení odpočinku: Jídlo a tekutiny",
+    "UsesCustomRecovery": "Použití vlastní nastavení obnovení",
+    "Type": "Typ:",
+    "Enabled": "Povoleno",
+    "Formula": "Vzorec:",
+    "IsConsumable": "Položka je spotřební",
+    "DayWorth": "Jedno použití odpovídá celodenní potřebě",
+    "ChargesDescription": "Systém jídla a tekutin pro obnovení odpočinku vyžaduje, aby položka měla nabíjení - jedno nabití odpovídá jedné jednotce jídla, nebo tekutin."
+},
+  "AbilityUse": {
+    "Title": "Vyber, kolik z této položky chceš spotřebovat:",
+    "DayWorthTitleBoth": "Tento typ spotřební položky pokrývá celodenní potřebu jak jídla, tak tekutin.",
+    "DayWorthTitleFood": "Tento typ spotřební položky pokrývá celodenní potřebu jídla.",
+    "DayWorthTitleWater": "Tento typ spotřební položky pokrývá celodenní potřebu tekutin.",
+    "DayWorthTitleCont": "Nebudeš potřebovat nic tohoto typu až do dalšího dne. Nemůžeš spotřebovat polovinu tohoto typu položky",
+    "SatedFood": "Jsi už sytý, z konzumace tohoto předmětu nezískáš žádné výhody.",
+    "NotSatedFood": "Potřebuješ spotřebovat {units} jednotek, aby ses nasytil(a).",
+    "SatedWater": "Jsi už zavodněn, z konzumace tohoto předmětu nezískáš žádné výhody.",
+    "NotSatedWater": "Potřebuješ spotřebovat {units} jednotek tekutin, aby ses zavodnil(a).",
+    "FullUnit": "Spotřebovat plnou jednotku",
+    "HalfUnit": "Spotřebovat poloviční jednotku"
+  }  
+},
+  "Traits": {
+    "Title": "Obnovení odpočinku",
+    "HitDieBonus": {
+      "Title": "Bonus k hodu na obnovu",
+      "Hint": "Kdykoliv tato postava hodí na obnovu, přičte se tento bonus k hodu. Může to být vzorec, například \"1d6 + 3\"."
+},
+  "HitDieAdvantage": {
+    "Title": "Výhoda na hod na obnovu",
+    "Hint": "Kdykoliv tato postava hodí na obnovu, hází s Výhodou."
+},
+  "LongRestSpellPointsBonus": {
+    "Title": "Bonus k obnovení pozic kouzel podobný obnově",
+    "Hint": "Toto je bonus, který bude přidán k obnovení pozic kouzel během důkladného odpočinku."
+},
+  "LongRestSpellPointsFormula": {
+    "Title": "Vzorec pro obnovení pozic kouzel podobných obnově",
+    "Hint": "Tento rys ti umožňuje přepsat vzorec pro obnovení pozic kouzel pro tuto konkrétní postavu."
+},
+  "FoodUnitsPerDay": {
+    "Title": "Jednotky jídla potřebné na den",
+    "Hint": "Toto nastavení přepisuje počet jednotek jídla, které tato postava denně potřebuje."
+},
+  "WaterUnitsPerDay": {
+    "Title": "Jednotky tekutin potřebné na den",
+    "Hint": "Toto přepisuje počet jednotek tekutin, které tato postava denně potřebuje."
+},
+  "NoFoodWater": {
+    "Title": "Vypnout požadavek na jídlo a tekutiny",
+    "Hint": "Pokud je zaškrtnuto, tato postava nepotřebuje žádné jídlo ani tekutiny, podobně jako schopnost Nehynoucí přirozenost černokněžníka."
+  }
+},
+  "Settings": {
+    "QuickSetup": {
+      "Title": "Rychlé nastavení",
+      "Label": "Otevřít rychlé nastavení",
+      "Hint": "Jednodušší rozhraní pro rychlou konfiguraci běžných nastavení odpočinků."
+},
+  "Configure": {
+    "Title": "Nastavení modulu",
+    "Label": "Nastavení odpočinku",
+    "Hint": "Zde můžeš nastavit, jak budou fungovat odpočinky."
+},
+  "QuickHDRoll": {
+    "Title": "Rychlý hod na obnovu (přeskočení dialogu)",
+    "Hint": "Přeskočí dialog pro hod na obnovu a provede hod rychle."
+},
+  "ShowPlayerListRestButton": {
+    "Title": "Zobrazit tlačítko pro odpočinek",
+    "Hint": "Určuje, zda bude zobrazeno tlačítko pro odpočinek pod seznamem hráčů vlevo dole (vyžaduje obnovení)"
+},
+  "Debug": {
+    "Title": "Povolit ladění",
+    "Label": "Tiskne ladící zprávy do konzole"
+},
+  "RequiresModule": "Vyžaduje {module_name}",
+  "General": {
+    "HitDieRollFormula": {
+      "Title": "Vzorec pro hod na obnovu",
+      "Hint": "Nastavuje vzorec pro hod na obnovu, umožňující udělit Výhodu nebo maximalizaci výsledků."
+},
+  "PeriaptRollMechanics": {
+    "Title": "Mechanika násobení hodu na obnovu",
+    "Hint": "Nastavuje, jak se budou násobit efekty, jako je předmět \"Škapulíř hojení ran\" a nastavení \"Násobitel hodů na obnovu\".",
+    "Options": {
+      "MultiplyRoll": "Násobit hod kostkou",
+      "MultiplyTotal": "Násobit celkový výsledek"
+  }
+},
+  "PreventUserRest": {
+    "Title": "Zabránění uživateli v odpočinku",
+    "Hint": "Tímto zabráníš uživatelům samotným zahájit odpočinek, musí je k tomu vyzvat GM."
+},
+  "EnableAutoRollButton": {
+    "Title": "Povolení tlačítka automatického hodu na obnovu",
+    "Hint": "Přidá tlačítko do rozhraní důkladného a krátkého odpočinku, aby hráči mohli automaticky házet na obnovu, dokud nebudou téměř plní."
+},
+  "EnablePromptRestTimePassing": {
+    "Title": "Povolení automatického plynutí času při výzvě k odpočinku",
+    "Hint": "Umožňuje plynutí času vždy, když jsou hráči vyzváni k odpočinku GM. To může způsobit vypršení časově závislých efektů na postavách."
+},
+  "EnableSimpleCalendarIntegration": {
+    "Title": "Povolení integrace s modulem Simple Calendar",
+    "Hint": "Povolí tlačítko \"Nový den\" v rozhraní pro výzvu k odpočinku a v rozhraní důkladného/krátkého odpočinku pro hráče automatizované podle aktuálního času v kalendáři."
+},
+  "EnableSimpleCalendarNotes": {
+    "Title": "Povolení poznámky modulu Simple Calendar",
+    "Hint": "Povolí vytvoření poznámky Simple Calendar pro každý krátký/důkladný odpočinek postavy, obsah bude totožný s výstupem zprávy v chatu na konci odpočinku.",
+    "Hint2": "Poznámka: Hráči musí mít povolení \"Vytvářet záznamy v deníku\" a oprávnění \"Přidat poznámky\" v Simple Calendar, pokud odpočívají online."
+},
+  "SimpleCalendarNotesOnlyPrompted": {
+    "Title": "Povolení poznámek pouze při výzvě k odpočinku",
+    "Hint": "Povolí vytvoření poznámek Simple Calendar pouze tehdy, když byl odpočinek vyzván GM."
+},
+  "HDRecoveryFraction": {
+    "Title": "Násobitel hodů na obnovu",
+    "Hint": "Část hodu na obnovu, která se skutečně obnoví jako výdrž pokaždé, když je hozena kostka obnovy."
+  }
+},
+  "FoodAndWater": {
+    "EnableFoodAndWater": {
+      "Title": "Povolení automatizace jídla a tekutin",
+      "Hint": "Povolí podfunkce týkající se automatizace jídla a tekutin, jak je uvedeno níže."
+},
+  "DisableRollConsumableItems": {
+    "Title": "Zakáz hod na spotřební položky při odpočinku",
+    "Hint": "Pokud se postava rozhodne spotřebovat během odpočinku položku, pak se ve výchozím nastavení bude házet jako při kliknutí na tlačítko pro hod. Toto nastavení tento automatický hod vypne."
+},
+  "FoodUnitsPerDay": {
+    "Title": "Počet denně vyžadovaných jednotek jídla",
+    "Hint": "Nastaví počet jednotek jídla, které postavy denně potřebují. Nastavením na 0 se úplně zruší požadavek na jídlo."
+},
+  "WaterUnitsPerDay": {
+    "Title": "Počet denně vyžadovaných jednotek tekutin",
+    "Hint": "Nastaví počet jednotek tekutin, které postavy denně potřebují. Nastavením na 0 se úplně zruší požadavek na tekutiny."
+},
+  "ExternalFoodAccess": {
+    "Title": "Přístup k externímu zdroji jídla",
+    "Hint": "Nastaví, zda hráči budou moci během odpočinku vybrat \"Externí zdroj jídla\" místo spotřebních položek. \"Plný\" znamená plný přístup jako v hostincích a městech, \"Poloviční\" znamená omezený přístup, nebo nekvalitní jídlo, \"Žádný\" znamená divočina, nebo hladovění."
+},
+  "ExternalFoodHasCost": {
+    "Title": "Cena externích zdrojů jídla",
+    "Hint": "Určuje, zda má \"externí jídlo\" finanční náklady, jako například cena jídla v hospodě."
+},
+  "ExternalFoodHalfCostCurrency": {
+    "Title": "Cena za poloviční jídlo",
+    "Hint": "Cena za získání poloviny požadovaného množství jídla během odpočinku."
+},
+  "ExternalWaterAccess": {
+    "Title": "Přístup k externímu zdroji tekutin",
+    "Hint": "Stejné jako výše, ale pro tekutiny. Měj na paměti, že pokud postavy nemají přístup k tekutinám, pak \"Polovina\" a \"Žádná\" způsobí okamžité vyčerpání."
+},
+  "ExternalWaterHasCost": {
+    "Title": "Cena externího zdroje tekutin",
+    "Hint": "Určí, zda má \"externí tekutina\" finanční hodnotu, třeba cenu nápojů v hospodě."
+},
+  "ExternalWaterFullCostCurrency": {
+    "Title": "Cena za plnou dávku tekutin",
+    "Hint": "Cena za získání plného množství tekutin požadovaného během odpočinku."
+},
+  "ExternalWaterHalfCostCurrency": {
+    "Title": "Cena za poloviční dávku tekutin",
+    "Hint": "Cena za získání poloviny požadovaného množství tekutin během odpočinku."
+},
+  "AutomateFoodWaterExhaustion": {
+    "Title": "Automatizace vyčerpání z nedostatku jídla a tekutin",
+    "Hint": "Povolí, aby postavy trpěly vyčerpáním, pokud dostatečně nejedí, nebo nepijí. Vyžaduje povolení automatizace vyčerpání z odpočinku."
+},
+  "NoFoodDuration": {
+    "Title": "Maximální počet dní bez jídla",
+    "Hint": "Určuje, kolik dní mohou postavy přežít bez jídla, než začnou trpět automatickým vyčerpáním."
+},
+  "HalfWaterSaveDC": {
+    "Title": "SO vyčerpání při polovičním množství tekutin",
+    "Hint": "Určuje SO záchranného hodu na Odolnost, který musí postavy zvládnout, když vypijí pouze polovinu požadovaného množství tekutin."
+},
+  "FoodWaterPromptNewDay": {
+    "Title": "Výzva k jídlu a pití v novém dni",
+    "Hint": "Pokud je povoleno, požadavek na jídlo a pití bude vyžadován pouze při \"novém dnu\" po odpočinku, a to bez ohledu na to, zda jde o krátký či důkladný."
+  }
+},
+  "ShortRest": {
+    "IgnoreInactive": {
+      "Title": "Ignorovat neaktivní hráčské postavy",
+      "Hint": "Pokud máš v partě barda se Odpočinkovou písní, nebo kuchaře, bude nastavení fungovat pouze v případě, kdy je vlastník postavy aktivní a přihlášený."
+},
+    "MaxShortRests": {
+      "Title": "Maximální počet krátkých odpočinků v jednom důkladném odpočinku",
+      "Hint": "Toto nastavení brání postavám v provádění krátkých odpočinků, pokud dosáhnou takovému počtu, který odpovídá tomuto číslu. Důkladný odpočinek tento počet resetuje. Nastavení nuly toto nastavení vypne."
+},
+    "MinHitDieSpend": {
+      "Title": "Minimální počet použití kostek obnovy během krátkého odpočinku",
+      "Hint": "Toto nastavení brání postavám v dokončení krátkého odpočinku, pokud neutratí alespoň tento počet kostek obnovy. Nastavení na nulu toto nastavení vypne."
+},
+    "MaxHitDieSpend": {
+      "Title": "Maximální počet použití kostky obnovy během krátkého odpočinku",
+      "Hint": "Toto nastavení brání postavám v házení kostkami obnovy, jakmile dosáhnou tohoto počtu použití. Toto nastavení nemůže být nikdy menší než nastavení \"Minimální počet použití kostek obnovy během krátkého odpočinku\"."
+},
+    "NoHitDice": {
+      "Title": "Zakáz házení kostek obnovy během krátkého odpočinku",
+      "Hint": "Toto nastavení zabrání postavám házení kostkami obnovy během krátkých odpočinků."
+},
+    "ResourcesRecoveryFraction": {
+      "Title": "Částečná obnova zdrojů",
+      "Hint": "Část zdrojů, která se obnoví během krátkého odpočinku."
+},
+    "ItemUsesRecoveryFraction": {
+      "Title": "Částečná obnova použití položek",
+      "Hint": "Část použití položek (položky, spotřební předměty atd.), která se obnoví během krátkého odpočinku, pokud položeka má nabití s omezeným počtem použití na krátký odpočinek."
+},
+    "FeatUsesRecoveryFraction": {
+      "Title": "Částečná obnova použití schopností",
+      "Hint": "Část použití schopností, která se obnoví během krátkého odpočinku, pokud mají nabití s omezeným počtem použití na krátký odpočinek."
+},
+    "PactSpellSlotsLongRecoveryFraction": {
+      "Title": "Částečná obnova paktových pozic černokněžníka",
+      "Hint": "Část paktových pozic černokněžníka, která se obnoví během krátkého odpočinku."
+},
+    "SongOfRestMultiuse": {
+      "Title": "S Odpočinkovou písní se hází zvlášť pro každou použitou kostku obnovy",
+      "Hint": "Povolí, aby Odpočinková píseň přidávala bonus pro každou použitou kostku obnovy během odpočinku, místo pouze té první."
+},
+    "HitPointsRecoveryFraction": {
+      "Title": "Částečná obnov bodů výdrže",
+      "Hint": "Část bodů výdrže, která se obnoví během krátkého odpočinku (kromě hodů kostek obnovy)."
+  }
+},
+  "LongRest": {
+    "AutomateExhaustion": {
+      "Title": "Povolení automatizace vyčerpání",
+      "Hint": "Tímto nastavením každý důkladný odpočinek sníží vyčerpání o 1."
+},
+    "ExhaustionIntegration": {
+      "Title": "Integrace modulu vyčerpání",
+      "Hint": "Toto nastavení umožní použít další moduly k uplatnění jejich aktivních efektů vyčerpání na postavy."
+},
+    "OneDnDExhaustion": {
+      "Title": "Povolení vyčerpání podle DnD 2024",
+      "Hint": "V novém DnD 2024 se vyčerpání hromadí do 10 (při kterém postava zemře) a aplikuje -1 postih na ověření schopností, útoky, záchranné hody a SO záchrany kouzel postavy za každou úroveň vyčerpání. Jednoduše změň úroveň vyčerpání na postavách a postih se automaticky aplikuje.",
+      "Hint2": "Poznámka: Toto nastavení není kompatibilní s modulem <em>Alternative Exhaustion 5e</em>."
+},
+    "OneDnDExhaustionSheetOverride": {
+      "Title": "Povolení zobrazení pro vyčerpání DnD 2024 zobrazení",
+      "Hint": "Povolí úpravu deníku k zobrazení 10 místo 6 stupňů vyčerpání."
+},
+    "PreventLongRestExhaustionRecovery": {
+      "Title": "Zabránění obnově vyčerpání při důkladném odpočinku",
+      "Hint": "Při povolení toto nastavení zabrání obnově vyčerpání po dokončení důkladného odpočinku."
+},
+    "RollHitDice": {
+      "Title": "Povolení házet kostkami obnovy při důkladném odpočinku",
+      "Hint": "Povolí UI pro hody na obnovu v dialogu důkladného odpočinku."
+},
+    "PreRegainHitDice": {
+      "Title": "Doplnění kostek obnovy před dokončením důkladného odpočinku",
+      "Hint": "Tímto se obnoví kostky obnovy před dokončením důkladného odpočinku, takže je můžeš hodit jako součást tohoto odpočinku."
+},
+    "PreRegainHitDiceBuffer": {
+      "Title": "Povolení dočasné paměti hodů na obnovu",
+      "Hint": "Toto nastavení způsobí, že každá postava vždy plně získá kostky obnovy, i kdyby tím přesáhla svůj maximální počet, takže žádné hody na obnovu nejsou zbytečně ztraceny. Nevyužité hody nad maximem zmizí po dokončení důkladného odpočinku."
+},
+    "PreventRegainHitDice": {
+      "Title": "Zabránění doplění kostek obnovy, pokud byly hozeny",
+      "Hint": "Toto nastavení způsobí, že postavy, které během důkladného odpočinku hodí nějakými kostkami obnovy, tyto kostky neobnoví na konci důkladného odpočinku. Toto není kompatibilní s nastavením \"Enable hit dice recovery before finishing long rest\"."
+},
+    "MaxHitDieSpend": {
+      "Title": "Maximální počet hodů na obnovu při důkladném odpočinku",
+      "Hint": "Tímto nastavením se zabrání postavám házet hody na obnovu, jakmile dosáhnou nastaveného počtu kostek obnovy."
+},
+    "HitPointsRecoveryFraction": {
+      "Title": "Část obnovy výdrže",
+      "Hint": "Jaká část bodů výdrže se doplní při důkladném odpočinku."
+},
+    "HitDiceRecoveryFraction": {
+      "Title": "Část obnovy kostek obnovy",
+      "Hint": "Jaká část kostek obnovy se doplní při důkladném odpočinku."
+},
+    "HitDiceRecoveryRounding": {
+      "Title": "Zaokrouhlení doplnění kostek obnovy",
+      "Hint": "Určí, jak zaokrouhlovat počet doplněných kostek obnovy."
+},
+    "ResourcesRecoveryFraction": {
+      "Title": "Část obnovy zdrojů",
+      "Hint": "Jaká část zdrojů se má doplnit při důkladném odpočinku."
+},
+    "SpellSlotsRecoveryFraction": {
+      "Title": "Část doplnění pozic kouzel",
+      "Hint": "Jaká část pozic kouzel se má doplnit při důkladném odpočinku."
+},
+    "CustomSpellSlotRecovery": {
+      "Title": "Povolení obnovy pozic kouzel jako u bodů",
+      "Hint": "Povolením tohoto nastavení obnoví své pozice kouzel všichni schopnostmi podobnými třeba kouzelnické „Zotavení mystiky“. Toto nastavení lze zapnout pouze, když je „Část doplnění pozic kouzel\" nastavena na vlastní hodnoty. Postavy obnoví počet pozic podle nastavení vlastního vzorce."
+},
+    "PactSpellSlotsLongRecoveryFraction": {
+      "Title": "Část obnovy pozic u kouzel patrona",
+      "Hint": "Jaká část pozic kouzel patrona se má doplnit při důkladném odpočinku."
+},
+    "ItemUsesRecoveryFraction": {
+      "Title": "Část obnovy použití položek",
+      "Hint": "Jaká část použití položek (předměty, spotřební věci atd.) se má doplnit při důkladném odpočinku."
+},
+    "FeatUsesRecoveryFraction": {
+      "Title": "Část obnovy použití schopností",
+      "Hint": "Jaká část použití dovedností se má doplnit při důkladném odpočinku."
+},
+    "DailyUsesRecoveryFraction": {
+      "Title": "Část obnovy denních použití",
+      "Hint": "Jaká část denních použití (položky nastavením obnovy „Den“) se má doplnit při důkladném odpočinku."
+},
+    "AutomateArmor": {
+      "Title": "Automatizace zbroje při důkladném odpočinku",
+      "Hint": "Když se zaškrtne, tak zbroj jiná než lehká omezuje důkladné odpočinky. Níže nastav, jak zbroj ovlivňuje důkladný odpočinek."
+},
+    "ArmorHitDiceRecoveryFraction": {
+      "Title": "Část doplnění kostek obnovy se zbrojí",
+      "Hint": "Pokud má postava při důkladném odpočinku na sobě zbroj jinou než lehkou, je toto část doplněných kostek obnovy při důkladném odpočinku."
+},
+    "AutomateArmorExhaustion": {
+        "Title": "Zbroj brání obnově vyčerpání",
+        "Hint": "Při povolení tohoto nastavení a pokud má postava při důkladném odpočinku na sobě zbroj jinou než lehkou, neobnoví vyčerpání. Vyžaduje povolenou automatizaci vyčerpání."
+  }
+},
+  "ItemNames": {
+    "WizardClassName": {
+      "Title": "Název povolání kouzelníka",
+      "Hint": "Zde můžeš nastavit, jak bude povolání „kouzelník“ ve tvé hře nazýváno. Je to lokalizační řetězec."
+},
+    "DruidClassName": {
+      "Title": "Název povolání druida",
+      "Hint": "Zde můžeš nastavit, jak bude povolání „druid“ ve tvé hře nazýváno. Je to lokalizační řetězec."
+},
+    "BardClassName": {
+      "Title": "Název povolání barda",
+      "Hint": "Zde můžeš nastavit, jak bude povolání „bard“ ve tvé hře nazýváno. Také určí, kdo tedy používá Odpočinkovou píseň. Je to lokalizační řetězec."
+},
+    "ArcaneRecovery": {
+      "Title": "Název Zotavení mystiky",
+      "Hint": "Zde můžeš nastavit, jak bude kouzelnická schopnost „Zotavení mystiky“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "PowerSurge": {
+      "Title": "Název Mocné vlny",
+      "Hint": "Zde můžeš nastavit, jak bude kouzelnická schopnost „Mocná vlna“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "NaturalRecovery": {
+      "Title": "Název Přírodní obnovy",
+      "Hint": "Zde můžeš nastavit, jak bude druidská schopnost „Přírodní obnova“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "SongOfRest": {
+      "Title": "Název Odpočinkové písně",
+      "Hint": "Zde můžeš nastavit, jak bude bardská schopnost „Odpočinková píseň“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "ChefFeat": {
+      "Title": "Název odbornosti Kuchaře",
+      "Hint": "Zde můžeš nastavit, jak bude odbornost „Kuchař“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "ChefTools": {
+      "Title": "Název kuchařských nístrojů",
+      "Hint": "Zde můžeš nastavit, jak bude „kuchařské nástroje“ ve tvé hře nazývány. Je to lokalizační řetězec. Ponech to prázdné, pokud chceš, aby byly při použití odbornosti kuchařské nástroje potřeba."
+},
+    "DurableFeat": {
+      "Title": "Název odbornosti Otužilce",
+      "Hint": "Zde můžeš nastavit, jak bude odbornost „Otužilec“ ve tvé hře nazývána. Je to lokalizační řetězec."
+},
+    "PeriaptItem": {
+      "Title": "Název Škapulíře hojení ran",
+      "Hint": "Zde můžeš nastavit, jak bude „Škapulíř hojení ran“ ve tvé hře nazýván. Je to lokalizační řetězec."
+},
+    "WoundClosureBlessing": {
+      "Title": "Název Požehnání hojení ran",
+      "Hint": "Zde můžeš nastavit, jak bude „Požehnání hojení ran“ ve tvé hře nazýváno. Je to lokalizační řetězec."
+},
+    "BlackBloodFeature": {
+      "Title": "Název Léčení černé krve",
+      "Hint": "Zde můžeš nastavit, jak bude „Léčení černé krve“ ve tvé hře nazýváno. Je to lokalizační řetězec."
+        }
+      }
+    }
+  },
+
+
+
+
+
+  "MonksActiveTiles.Triggers": "Spouštěče",
+  "MonksActiveTiles.TriggersHint": "Nastavení interakce hráče s dlaždicí",
+  "MonksActiveTiles.TriggersImages": "Seznam dalších obrázků pro tuto dlaždici",
+  "MonksActiveTiles.TriggerAction": "Akce spouštěče",
+
+  "MonksActiveTiles.ThisTile": "Tato dlaždice",
+  "MonksActiveTiles.TriggeringToken": "Spouštějící token",
+  "MonksActiveTiles.PlayerTokens": "Tokeny hráčů",
+  "MonksActiveTiles.CurrentLocation": "Aktuální umístění",
+  "MonksActiveTiles.WithinTile": "{collection} v dlaždici",
+  "MonksActiveTiles.WithinWall": "Dlaždice pod dveřmi",
+  "MonksActiveTiles.CurrentCollection": "Aktuální {collection}",
+  "MonksActiveTiles.Origin": "Původní destinace",
+  "MonksActiveTiles.Controlled": "Ovládané tokeny",
+  "MonksActiveTiles.CurrentlyPlaying": "Právě hrané",
+  "MonksActiveTiles.TileVariables": "Proměnné dlaždice",
+  "MonksActiveTiles.ClearVariables": "Vymazat proměnné",
+  "MonksActiveTiles.TileHistory": "Historie dlaždic",
+  "MonksActiveTiles.ResetHistory": "Obnovit historii",
+  "MonksActiveTiles.SelectTile": "Vybrat dlaždici",
+  "MonksActiveTiles.Match": "Shoda",
+  "MonksActiveTiles.Scene": "Scéna",
+
+  "MonksActiveTiles.After": "Po",
+  "MonksActiveTiles.Action": "Akce",
+  "MonksActiveTiles.Update": "Aktualizace",
+  "MonksActiveTiles.Seconds": "sekundy",
+  "MonksActiveTiles.CreateNewAction": "Vytvořit novou akci",
+  "MonksActiveTiles.Active": "Aktivní",
+  "MonksActiveTiles.RestrictedTo": "Omezeno na tokeny",
+  "MonksActiveTiles.ControlledBy": "Ovládáno",
+  "MonksActiveTiles.When": "Když",
+  "MonksActiveTiles.ChanceTrigger": " Šance na spuštění v procentech",
+  "MonksActiveTiles.Add": "Přidat",
+  "MonksActiveTiles.ToggleActive": "Přepnout stav aktivace",
+  "MonksActiveTiles.PerToken": "Jednou na token",
+  "MonksActiveTiles.EditAction": "Upravit akci",
+  "MonksActiveTiles.DeleteAction": "Smazat akci",
+  "MonksActiveTiles.Actions": "Akce",
+  "MonksActiveTiles.ManualTrigger": "Manuálně spustit akce",
+  "MonksActiveTiles.MinRequired": "Minimum požadované pro spuštění",
+  "MonksActiveTiles.TagName": "Zadej název tagu",
+  "MonksActiveTiles.Save": "Uložit",
+  "MonksActiveTiles.SnapToGrid": "Přichytit k mřížce",
+  "MonksActiveTiles.History": "Historie",
+  "MonksActiveTiles.HoverPointer": "Ukazatel po přejetí myší",
+  "MonksActiveTiles.UseTransparency": "Spustit pomocí obrázku místo rámečku",
+  "MonksActiveTiles.Sounds": "Přehrávané zvuky",
+  "MonksActiveTiles.AllowWhenPaused": "Povolit při zastavení hry",
+  "MonksActiveTiles.ShownImage": "Zobrazený obrázek",
+  "MonksActiveTiles.TileTemplates": "Šablony dlaždic",
+  "MonksActiveTiles.Players": "Hráči",
+  "MonksActiveTiles.Cooldown": "Čas na obnovení (sek.)",
+  "MonksActiveTiles.MultiplePlayers": "Více hráčů ({players})",
+  "MonksActiveTiles.UnknownPlayer": "Neznámý hráč",
+  "MonksActiveTiles.MultipleLocations": "Více lokalit ({locations})",
+  "MonksActiveTiles.UnknownLocation": "Neznámá lokalita",
+  "MonksActiveTiles.MultipleEntities": "Více entit ({entities})",
+  "MonksActiveTiles.UnknownEntity": "Neznámá entita",
+  "MonksActiveTiles.ActiveScene": "Aktivní scéna",
+  "MonksActiveTiles.TriggeringTokenScene": "Scéna spouštějícího tokenu",
+  "MonksActiveTiles.TokenVision": "Token musí mít pro spuštění zrak",
+
+  "MonksActiveTiles.actiontext.pause": "<action>{pause} hru</action>",
+  "MonksActiveTiles.actiontext.delay": "<action>Čekej</action> po dobu <detail>\"{delay} sekund\"</detail>",
+  "MonksActiveTiles.actiontext.movement": "<action>{action}</action>{snap}",
+
+  "MonksActiveTiles.group.actions": "Akce",
+  "MonksActiveTiles.group.filters": "Filtry",
+  "MonksActiveTiles.group.logic": "Tok akcí",
+
+  "MonksActiveTiles.action.pause": "Pozastavit hru",
+  "MonksActiveTiles.action.stopmovement": "Zastavit pohyb tokenu",
+  "MonksActiveTiles.action.teleport": "Teleportovat",
+  "MonksActiveTiles.action.showhide": "Zobrazit, nebo skrýt",
+  "MonksActiveTiles.action.activate": "Aktivovat, nebo deaktivovat",
+  "MonksActiveTiles.action.alter": "Upravit",
+  "MonksActiveTiles.action.playsound": "Přehrát zvukový soubor",
+  "MonksActiveTiles.action.playlist": "Spustit seznam skladeb",
+  "MonksActiveTiles.action.stopsound": "Zastavit zvuk",
+  "MonksActiveTiles.action.changedoor": "Změnit stěnu, nebo dveře",
+  "MonksActiveTiles.action.notification": "Odeslat oznámení",
+  "MonksActiveTiles.action.chatmessage": "Poslat zprávu do chatu",
+  "MonksActiveTiles.action.runmacro": "Spustit makro",
+  "MonksActiveTiles.action.rolltable": "Hodit tabulkou",
+  "MonksActiveTiles.action.pancanvas": "Posunout plátno",
+  "MonksActiveTiles.action.resetfog": "Obnovit válečnou mlhu",
+  "MonksActiveTiles.action.activeeffect": "Aktivovat efekt",
+  "MonksActiveTiles.action.movement": "Pohnout",
+  "MonksActiveTiles.action.createtoken": "Vytvořit token",
+  "MonksActiveTiles.action.playanimation": "Spustit animaci dlaždice",
+  "MonksActiveTiles.action.openjournal": "Otevřít deník",
+  "MonksActiveTiles.action.openactor": "Otevřít deník aktéra",
+  "MonksActiveTiles.action.additem": "Přidat předmět",
+  "MonksActiveTiles.action.permission": "Změnit oprávnění",
+  "MonksActiveTiles.action.attack": "Útok",
+  "MonksActiveTiles.action.trigger": "Spustit dlaždici",
+  "MonksActiveTiles.action.scene": "Změnit scénu",
+  "MonksActiveTiles.action.addtocombat": "Přidat do boje",
+  "MonksActiveTiles.action.elevation": "Změnit výšku",
+  "MonksActiveTiles.action.hurtheal": "Zranit, nebo vyléčit",
+  "MonksActiveTiles.action.resethistory": "Resetovat historii spuštění dlaždice",
+  "MonksActiveTiles.action.delay": "Nastavit zpoždění akcí",
+  "MonksActiveTiles.action.imagecycle": "Cyklovat obrázky",
+  "MonksActiveTiles.action.imagecycleset": "Cyklovat obrázky, nastavit obrázek",
+  "MonksActiveTiles.action.delete": "Smazat entity",
+  "MonksActiveTiles.action.createjournal": "Vytvořit poznámku do deníku",
+  "MonksActiveTiles.action.scenelighting": "Změnit osvětlení scény",
+  "MonksActiveTiles.action.target": "Stanovit cíl",
+  "MonksActiveTiles.action.globalvolume": "Změnit globální hlasitost",
+  "MonksActiveTiles.action.dialog": "Zobrazit dialog",
+  "MonksActiveTiles.action.scenebackground": "Změnit pozadí scény",
+  "MonksActiveTiles.action.scrollingtext": "Posouvat text",
+  "MonksActiveTiles.action.preload": "Přednačíst scénu",
+  "MonksActiveTiles.action.removeitem": "Odebrat předmět",
+  "MonksActiveTiles.action.tileimage": "Přepnout obrázek dlaždice",
+  "MonksActiveTiles.action.runbatch": "Spustit všechny akce dávky",
+  "MonksActiveTiles.action.rotation": "Otáčet",
+  "MonksActiveTiles.action.showimage": "Zobrazit obrázek",
+  "MonksActiveTiles.action.writetojournal": "Zapsat do deníku",
+  "MonksActiveTiles.action.setvariable": "Nastavit proměnnou dlaždice",
+  "MonksActiveTiles.action.setcurrent": "Nastavit aktuální kolekci dlaždic",
+  "MonksActiveTiles.action.closedialog": "Zavřít dialog",
+  "MonksActiveTiles.action.url": "Otevřít URL",
+  "MonksActiveTiles.action.tempimage": "Nastavit dočasný obrázek dlaždice",
+  "MonksActiveTiles.action.ping": "Pingnout",
+  "MonksActiveTiles.action.gametime": "Změnit herní čas",
+  "MonksActiveTiles.action.shuffle": "Zamíchat kolekci",
+  "MonksActiveTiles.action.preloadtileimage": "Přednačíst obrázky dlaždic",
+  "MonksActiveTiles.action.runcode": "Spustit kód",
+
+  "MonksActiveTiles.filter.distance": "Filtrovat tokeny podle vzdálenosti",
+  "MonksActiveTiles.filter.exists": "Zkontrolovat počet entit",
+  "MonksActiveTiles.filter.triggercount": "Zkontrolovat počet spuštění dlaždice",
+  "MonksActiveTiles.filter.tokencount": "Filtrovat podle počtu spuštění tokenu",
+  "MonksActiveTiles.filter.first": "Pozice v seznamu",
+  "MonksActiveTiles.filter.attribute": "Filtrovat podle vlastností",
+  "MonksActiveTiles.filter.inventory": "Filtrovat podle předmětů v inventáři",
+  "MonksActiveTiles.filter.condition": "Filtrovat podle podmínek",
+  "MonksActiveTiles.filter.random": "Náhodné číslo",
+  "MonksActiveTiles.filter.visibility": "Filtrovat podle viditelnosti",
+  "MonksActiveTiles.filter.variable": "Zkontrolovat proměnnou",
+  "MonksActiveTiles.filter.value": "Zkontrolovat hodnotu",
+
+  "MonksActiveTiles.logic.anchor": "Přistát",
+  "MonksActiveTiles.logic.goto": "Skočit na přistání",
+  "MonksActiveTiles.logic.stop": "Zastavit zbývající akce",
+  "MonksActiveTiles.logic.playertype": "Přesměrovat podle typu hráče",
+  "MonksActiveTiles.logic.loop": "Procházet entity",
+  "MonksActiveTiles.logic.method": "Přesměrovat podle metody",
+  "MonksActiveTiles.logic.checkdata": "Zkontrolovat data",
+  "MonksActiveTiles.logic.stoptriggers": "Zastavit další spuštění dlaždic",
+
+  "MonksActiveTiles.ctrl.snap": "Přichytit k mřížce",
+  "MonksActiveTiles.ctrl.select-coordinates": "Vybrat souřadnice",
+  "MonksActiveTiles.ctrl.select-entity": "Vybrat entitu",
+  "MonksActiveTiles.ctrl.select-actor": "Vybrat aktéra",
+  "MonksActiveTiles.ctrl.select-tile": "Vybrat dlaždici",
+  "MonksActiveTiles.ctrl.select-token": "Vybrat token",
+  "MonksActiveTiles.ctrl.state": "Stav",
+  "MonksActiveTiles.ctrl.attribute": "Atribut",
+  "MonksActiveTiles.ctrl.value": "Hodnota",
+  "MonksActiveTiles.ctrl.audiofile": "Zvukový soubor",
+  "MonksActiveTiles.ctrl.playlist": "Seznam zvuků",
+  "MonksActiveTiles.ctrl.for": "Pro",
+  "MonksActiveTiles.ctrl.selectdoor": "Vybrat dveře",
+  "MonksActiveTiles.ctrl.selectrolltable": "Vybrat házecí tabulku",
+  "MonksActiveTiles.ctrl.type": "Typ",
+  "MonksActiveTiles.ctrl.text": "Text",
+  "MonksActiveTiles.ctrl.macro": "Makro",
+  "MonksActiveTiles.ctrl.args": "Argumenty",
+  "MonksActiveTiles.ctrl.animate": "Animovat",
+  "MonksActiveTiles.ctrl.language": "Jazyk",
+  "MonksActiveTiles.ctrl.effectlist": "Efekt",
+  "MonksActiveTiles.ctrl.waitforanimation": "Čekat na animaci",
+  "MonksActiveTiles.ctrl.animation": "Animace",
+  "MonksActiveTiles.ctrl.showto": "Zobrazit pro",
+  "MonksActiveTiles.ctrl.invisible": "Vytvořit neviditelné",
+  "MonksActiveTiles.ctrl.select-item": "Vybrat položku",
+  "MonksActiveTiles.ctrl.rollmode": "Režim hodu",
+  "MonksActiveTiles.ctrl.chatmessage": "Přidat zprávu do chatu",
+  "MonksActiveTiles.ctrl.flavor": "Doplňkový text",
+  "MonksActiveTiles.ctrl.changefor": "Změnit pro",
+  "MonksActiveTiles.ctrl.permission": "Oprávnění",
+  "MonksActiveTiles.ctrl.attack": "Útok",
+  "MonksActiveTiles.ctrl.scenerestrict": "Omezit na scénu",
+  "MonksActiveTiles.ctrl.scene": "Scéna",
+  "MonksActiveTiles.ctrl.animatepan": "Animovat posun plátna",
+  "MonksActiveTiles.ctrl.deletesource": "Smazat zdrojový token",
+  "MonksActiveTiles.ctrl.avoidtokens": "Vyhnout se ostatním tokenům v cíli",
+  "MonksActiveTiles.ctrl.rollattack": "Typ akce",
+  "MonksActiveTiles.ctrl.rolldamage": "Hod na zranění",
+  "MonksActiveTiles.ctrl.volume": "Hlasitost",  
+  "MonksActiveTiles.ctrl.incharacter": "V postavě",
+  "MonksActiveTiles.ctrl.speaker": "Mluvčí",
+  "MonksActiveTiles.ctrl.loop": "Opakování",
+  "MonksActiveTiles.ctrl.audiotype": "Typ zvuku",
+  "MonksActiveTiles.ctrl.activate": "Aktivovat",
+  "MonksActiveTiles.ctrl.usepermission": "Oprávnění",
+  "MonksActiveTiles.ctrl.distance": "Vzdálenost",
+  "MonksActiveTiles.ctrl.name": "Název",
+  "MonksActiveTiles.ctrl.chatbubble": "Bublina chatu",
+  "MonksActiveTiles.ctrl.runasgm": "Spustit jako",
+  "MonksActiveTiles.ctrl.startcombat": "Zahájit boj",
+  "MonksActiveTiles.ctrl.delay": "Zpoždění (vteřiny)",
+  "MonksActiveTiles.ctrl.limit": "Limit (opakování)",
+  "MonksActiveTiles.ctrl.resume": "Obnovit po limitu",
+  "MonksActiveTiles.ctrl.resumeloop": "Obnovit po opakování",
+  "MonksActiveTiles.ctrl.preservesettings": "Pokud token existuje, zachovat nastavení",
+  "MonksActiveTiles.ctrl.images": "Obrázky",
+  "MonksActiveTiles.ctrl.imgat": "Zobrazuje obrázek č.",
+  "MonksActiveTiles.ctrl.enhanced": "Použít Monk's Enhanced Journal",
+  "MonksActiveTiles.ctrl.stopwhenreached": "Zastavit při dosažení v kódu",
+  "MonksActiveTiles.ctrl.triggertiles": "Spustit dlaždice při pohybu",
+  "MonksActiveTiles.ctrl.icon": "Ikona položky",
+  "MonksActiveTiles.ctrl.tag": "Název tagu",
+  "MonksActiveTiles.ctrl.random": "Náhodný",
+  "MonksActiveTiles.ctrl.count": "Počet",
+  "MonksActiveTiles.ctrl.triggercount": "Počet spuštění",
+  "MonksActiveTiles.ctrl.tokencount": "Počet spuštění tokenu",
+  "MonksActiveTiles.ctrl.itemname": "Název položky",
+  "MonksActiveTiles.ctrl.itemcount": "Počet položek",
+  "MonksActiveTiles.ctrl.itemquantity": "Množství položek",
+  "MonksActiveTiles.ctrl.darkness": "Úroveň temnoty",
+  "MonksActiveTiles.ctrl.speed": "Rychlost (vteřiny)",
+  "MonksActiveTiles.ctrl.play": "Přehrát",
+  "MonksActiveTiles.ctrl.quantity": "Množství",
+  "MonksActiveTiles.ctrl.volumetype": "Typ hlasitosti",
+  "MonksActiveTiles.ctrl.onyes": "Na Ano přejít na",
+  "MonksActiveTiles.ctrl.onno": "Na Ne přejít na",
+  "MonksActiveTiles.ctrl.title": "Titulek",
+  "MonksActiveTiles.ctrl.content": "Obsah",
+  "MonksActiveTiles.ctrl.options": "Možnosti",
+  "MonksActiveTiles.ctrl.dialogtype": "Typ dialogu",
+  "MonksActiveTiles.ctrl.image": "Obrázek",
+  "MonksActiveTiles.ctrl.easing": "Plynulost zvuku",
+  "MonksActiveTiles.ctrl.radius": "Poloměr efektu <small>(mřížkové jednotky)</small>",
+  "MonksActiveTiles.ctrl.reset": "Resetovat po použití všech",
+  "MonksActiveTiles.ctrl.slotmachine": "Výherní automat",
+  "MonksActiveTiles.ctrl.spins": "Otáčky",
+  "MonksActiveTiles.ctrl.rate": "Rychlost otáčení",
+  "MonksActiveTiles.ctrl.duration": "Doba trvání (s)",
+  "MonksActiveTiles.ctrl.anchor": "Ukotvení",
+  "MonksActiveTiles.ctrl.direction": "Směr",
+  "MonksActiveTiles.ctrl.doesnthave": "Nemá",
+  "MonksActiveTiles.ctrl.distribution": "Distribuce",
+  "MonksActiveTiles.ctrl.position": "Pozice",
+  "MonksActiveTiles.ctrl.preventsound": "Zabránit spuštění zvuku, pokud už hraje",
+  "MonksActiveTiles.ctrl.gmredirect": "Přesměrování GM",
+  "MonksActiveTiles.ctrl.playerredirect": "Přesměrování hráče",
+  "MonksActiveTiles.ctrl.fade": "Zblednutí",
+  "MonksActiveTiles.ctrl.transition": "Přechod",
+  "MonksActiveTiles.ctrl.returndata": "Použít vrácená data",
+  "MonksActiveTiles.ctrl.select": "Změnit na",
+  "MonksActiveTiles.ctrl.loops": "Smyčky",
+  "MonksActiveTiles.ctrl.rotation": "Otáčení",
+  "MonksActiveTiles.ctrl.rolldice": "Pokud je potřeba, hodit kostky",
+  "MonksActiveTiles.ctrl.positioning": "Umístění",
+  "MonksActiveTiles.ctrl.waitresponse": "Čekat na odpověď",
+  "MonksActiveTiles.ctrl.landing": "Přistání",
+  "MonksActiveTiles.ctrl.washcolour": "Barva teleportace",
+  "MonksActiveTiles.ctrl.imagefile": "Soubor obrázku",
+  "MonksActiveTiles.ctrl.caption": "Popis",
+  "MonksActiveTiles.ctrl.activetoken": "Použít pouze aktivní tokeny hráčů",
+  "MonksActiveTiles.ctrl.randomnumber": "Náhodné procento",
+  "MonksActiveTiles.ctrl.fail": "Přejít na přistání při neúspěchu",
+  "MonksActiveTiles.ctrl.showdice": "Zobrazit kostky",
+  "MonksActiveTiles.ctrl.allowdisabled": "Povolit zakázané",
+  "MonksActiveTiles.ctrl.showplaylist": "Zobrazit na seznamu skladeb",
+  "MonksActiveTiles.ctrl.htmlfile": "HTML soubor",
+  "MonksActiveTiles.ctrl.buttons": "Tlačítka",
+  "MonksActiveTiles.ctrl.select-target": "Vybrat cíl",
+  "MonksActiveTiles.ctrl.close-means-no": "Zavření dialogu nevyvolá přechod",
+  "MonksActiveTiles.ctrl.fastforward": "Přetáhnout",
+  "MonksActiveTiles.ctrl.width": "Šířka",
+  "MonksActiveTiles.ctrl.height": "Výška",
+  "MonksActiveTiles.ctrl.chatcard": "Zobrazit kartu v chatu",
+  "MonksActiveTiles.ctrl.method": "Metoda",
+  "MonksActiveTiles.ctrl.redirect": "Přesměrování",
+  "MonksActiveTiles.ctrl.variablename": "Název proměnné",
+  "MonksActiveTiles.ctrl.activeuser": "Aktivní uživatel",
+  "MonksActiveTiles.ctrl.owners": "Vlastníci",
+  "MonksActiveTiles.ctrl.id": "ID",
+  "MonksActiveTiles.ctrl.trigger": "Spouštěč",
+  "MonksActiveTiles.ctrl.valuename": "Název hodnoty",
+  "MonksActiveTiles.ctrl.action": "Akce",
+  "MonksActiveTiles.ctrl.allowplayer": "Použít hráče",
+  "MonksActiveTiles.ctrl.resetcollection": "Resetovat kolekci",
+  "MonksActiveTiles.ctrl.asimage": "Jako obrázek",
+  "MonksActiveTiles.ctrl.offset": "Posunutí (ms)",
+  "MonksActiveTiles.ctrl.pingstyle": "Styl pingu",
+  "MonksActiveTiles.ctrl.delayactions": "Zpozdit akce do dokončení",
+  "MonksActiveTiles.ctrl.time": "Čas (min)",
+  "MonksActiveTiles.ctrl.landingname": "Název přistání",
+  "MonksActiveTiles.ctrl.resettype": "Typ resetu",
+  "MonksActiveTiles.ctrl.triggerremote": "Spustit na cílové lokaci",
+  "MonksActiveTiles.ctrl.code": "Kód",
+  "MonksActiveTiles.ctrl.hascondition": "Má",
+
+  "MonksActiveTiles.mode.enter": "Vstup",
+  "MonksActiveTiles.mode.exit": "Výstup",
+  "MonksActiveTiles.mode.both": "Při vstupu/výstupu",
+  "MonksActiveTiles.mode.movement": "Pohyb",
+  "MonksActiveTiles.mode.click": "Kliknutí",
+  "MonksActiveTiles.mode.rightclick": "Kliknutí pravým tlačítkem",
+  "MonksActiveTiles.mode.dblclick": "Dvojité kliknutí",
+  "MonksActiveTiles.mode.dblrightclick": "Dvojité kliknutí pravým tlačítkem",
+  "MonksActiveTiles.mode.hover": "Při přejetí myší",
+  "MonksActiveTiles.mode.hoverin": "Najeď dovnitř",
+  "MonksActiveTiles.mode.hoverout": "Najeď ven",
+  "MonksActiveTiles.mode.manual": "Ruční aktivace",
+  "MonksActiveTiles.mode.stop": "Zastavit v rámci dlaždice",
+  "MonksActiveTiles.mode.round": "Kolo boje",
+  "MonksActiveTiles.mode.turn": "Začátek tahu v boji",
+  "MonksActiveTiles.mode.turnend": "Konec tahu v boji",
+  "MonksActiveTiles.mode.combatstart": "Začátek boje",
+  "MonksActiveTiles.mode.combatend": "Konec boje",
+  "MonksActiveTiles.mode.canvasready": "Změna scény",
+  "MonksActiveTiles.mode.elevation": "Výška",
+  "MonksActiveTiles.mode.rotation": "Otáčení",
+  "MonksActiveTiles.mode.create": "Vytvoření tokenu",
+  "MonksActiveTiles.mode.door": "Spouštěč dveří",
+  "MonksActiveTiles.mode.darkness": "Změna osvětlení",
+  "MonksActiveTiles.mode.darknesschange": "Animace osvětlení",
+  "MonksActiveTiles.mode.time": "Změna času",
+
+  "MonksActiveTiles.restrict.all": "Povolit všechny tokeny",
+  "MonksActiveTiles.restrict.player": "Pouze tokeny hráčů",
+  "MonksActiveTiles.restrict.gm": "Pouze tokeny GM",
+
+  "MonksActiveTiles.control.all": "Kdokoliv",
+  "MonksActiveTiles.control.player": "Pouze hráč",
+  "MonksActiveTiles.control.gm": "Pouze GM",
+
+  "MonksActiveTiles.hidden.show": "Zobrazit",
+  "MonksActiveTiles.hidden.hide": "Skrýt",
+  "MonksActiveTiles.hidden.toggle": "Přepnout",
+  "MonksActiveTiles.hidden.previous": "Z předchozí akce",
+
+  "MonksActiveTiles.activate.activate": "Aktivovat",
+  "MonksActiveTiles.activate.deactivate": "Deaktivovat",
+  "MonksActiveTiles.activate.toggle": "Přepnout",
+  "MonksActiveTiles.activate.previous": "Z předchozí akce",
+
+  "MonksActiveTiles.add.add": "Přidat",
+  "MonksActiveTiles.add.remove": "Odebrat",
+  "MonksActiveTiles.add.toggle": "Přepnout",
+  "MonksActiveTiles.add.clear": "Vyčistit",
+
+  "MonksActiveTiles.for.all": "Všichni",
+  "MonksActiveTiles.for.gm": "Pouze GM",
+  "MonksActiveTiles.for.token": "Vlastník spouštějícího tokenu",
+  "MonksActiveTiles.for.owner": "Aktuální vlastník tokenu",
+  "MonksActiveTiles.for.triggering": "Spouštějící hráč",
+  "MonksActiveTiles.for.players": "Pouze hráči",
+  "MonksActiveTiles.for.current": "Aktuální uživatelé",
+
+  "MonksActiveTiles.audiotype.all": "Zvuky na mapě",
+  "MonksActiveTiles.audiotype.tile": "Zvuky dlaždic",
+
+  "MonksActiveTiles.state.open": "Otevřeno",
+  "MonksActiveTiles.state.closed": "Zavřeno",
+  "MonksActiveTiles.state.locked": "Zamčeno",
+  "MonksActiveTiles.state.toggle": "Přepnout",
+  "MonksActiveTiles.state.add": "Přidat",
+  "MonksActiveTiles.state.remove": "Odebrat",
+
+  "MonksActiveTiles.doortype.door": "Dveře",
+  "MonksActiveTiles.doortype.secret": "Tajné",
+  "MonksActiveTiles.doortype.toggle": "Přepnout",
+
+  "MonksActiveTiles.animate.start": "Spustit",
+  "MonksActiveTiles.animate.pause": "Pozastavit",
+  "MonksActiveTiles.animate.stop": "Zastavit",
+  "MonksActiveTiles.animate.toggle": "Přepnout",
+  "MonksActiveTiles.animate.reset": "Resetovat",
+  "MonksActiveTiles.animate.resume": "Pokračovat",
+
+  "MonksActiveTiles.pause.pause": "Pozastavit",
+  "MonksActiveTiles.pause.unpause": "Pokračovat",
+  "MonksActiveTiles.pause.toggle": "Přepnout pauzu",
+
+  "MonksActiveTiles.showto.everyone": "Všichni",
+  "MonksActiveTiles.showto.gm": "Pouze GM",
+  "MonksActiveTiles.showto.players": "Pouze hráči",
+  "MonksActiveTiles.showto.trigger": "Spouštějící hráč",
+
+  "MonksActiveTiles.attack.attack": "Útok",
+  "MonksActiveTiles.attack.spell": "Kouzlo",
+  "MonksActiveTiles.attack.ranged": "Na dálku",
+  "MonksActiveTiles.attack.action": "Akce",
+  "MonksActiveTiles.attack.weapon": "Zbraň",
+  "MonksActiveTiles.attack.melee": "Nablízko",
+  "MonksActiveTiles.attack.consumable": "Spotřební",
+
+  "MonksActiveTiles.rollmode.public": "Veřejný hod",
+  "MonksActiveTiles.rollmode.private": "Soukromý hod GM",
+  "MonksActiveTiles.rollmode.blind": "Slepý hod GM",
+  "MonksActiveTiles.rollmode.self": "Vlastní hod",
+
+  "MonksActiveTiles.notification.info": "Informace",
+  "MonksActiveTiles.notification.warning": "Varování",
+  "MonksActiveTiles.notification.error": "Chyba",
+
+  "MonksActiveTiles.runas.gm": "GM",
+  "MonksActiveTiles.runas.player": "Spouštějící hráč",
+
+  "MonksActiveTiles.volumetype.globalPlaylistVolume": "Seznamy skladeb",
+  "MonksActiveTiles.volumetype.globalAmbientVolume": "Na mapě",
+  "MonksActiveTiles.volumetype.globalInterfaceVolume": "Rozhraní",
+  "MonksActiveTiles.volumetype.globalSoundEffectVolume": "Zvukový efekt",
+
+  "MonksActiveTiles.dialogtype.confirm": "Potvrdit",
+  "MonksActiveTiles.dialogtype.alert": "Upozornění",
+  "MonksActiveTiles.dialogtype.custom": "Vlastní",
+
+  "MonksActiveTiles.target.appendtarget": "Přidat další cíle",
+  "MonksActiveTiles.target.overwritetarget": "Přepnout cíle",
+  "MonksActiveTiles.target.removetarget": "Odstranit cíl",
+  "MonksActiveTiles.target.clear": "Vymazat všechny cíle",
+
+  "MonksActiveTiles.position.random": "Náhodně v",
+  "MonksActiveTiles.position.center": "Střed",
+  "MonksActiveTiles.position.relative": "Relativně k vstupu",
+
+  "MonksActiveTiles.msgtype.MessageAndBubble": "Zpráva v chatu a bublina tokenu",
+  "MonksActiveTiles.msgtype.MessageOnly": "Pouze zpráva v chatu",
+  "MonksActiveTiles.msgtype.ChatBubble": "Pouze bublina tokenu",
+
+  "MonksActiveTiles.attacktype.chatcard": "Karta v chatu",
+  "MonksActiveTiles.attacktype.attack": "Útok",
+  "MonksActiveTiles.attacktype.use": "Použít",
+
+  "MonksActiveTiles.transition.none": "Žádný",
+  "MonksActiveTiles.transition.fade": "Zmizení",
+  "MonksActiveTiles.transition.blur": "Rozostření",
+  "MonksActiveTiles.transition.slide-left": "Posun vlevo",
+  "MonksActiveTiles.transition.slide-up": "Posun nahoru",
+  "MonksActiveTiles.transition.slide-right": "Posun vpravo",
+  "MonksActiveTiles.transition.slide-down": "Posun dolů",
+  "MonksActiveTiles.transition.slide-random": "Náhodný posun",
+  "MonksActiveTiles.transition.bump-left": "Náraz vlevo",
+  "MonksActiveTiles.transition.bump-up": "Náraz nahoru",
+  "MonksActiveTiles.transition.bump-right": "Náraz vpravo",
+  "MonksActiveTiles.transition.bump-down": "Náraz dolů",
+  "MonksActiveTiles.transition.bump-random": "Náhodný náraz",
+  "MonksActiveTiles.transition.slotmachine": "Výherní automat",
+
+  "MonksActiveTiles.distribute.everyone": "Postavy dostanou kopii všech položek",
+  "MonksActiveTiles.distribute.single": "Postavy dostanou jednu položku",
+  "MonksActiveTiles.distribute.evenall": "Všechny položky jsou rozděleny mezi postavy",
+  "MonksActiveTiles.distribute.even": "Rozděleno rovnoměrně, zbytky jsou předány dál",
+
+  "MonksActiveTiles.ping.pulse": "Pulz",
+  "MonksActiveTiles.ping.alert": "Upozornění",
+  "MonksActiveTiles.ping.chevron": "Šipka",
+  "MonksActiveTiles.ping.arrow": "Šipka",
+
+  "MonksActiveTiles.resettype.everything": "Vše",
+  "MonksActiveTiles.resettype.token": "Token",
+
+  "MonksActiveTiles.permission.check": "Zkontrolovat oprávnění",
+  "MonksActiveTiles.permission.ignore": "Ignorovat oprávnění",
+  "MonksActiveTiles.permission.limited": "Přiřadit omezené oprávnění",
+  "MonksActiveTiles.permission.observer": "Přiřadit oprávnění pozorovatele",
+  "MonksActiveTiles.permission.owner": "Přiřadit oprávnění vlastníka",
+
+  "MonksActiveTiles.msg.prevent-teleport": "Bylo zamezeno teleportaci mimo mapu",
+  "MonksActiveTiles.msg.prevent-movement": "Bylo zamezeno pohybu mimo mapu",
+  "MonksActiveTiles.msg.invalid-entity": "Neplatný typ entity",
+  "MonksActiveTiles.msg.invalid-location": "Neplatná lokace, vyber prosím nějakou ve stejné scéně",
+  "MonksActiveTiles.msg.select-location": "Vyber, prosím, lokaci v této scéně",
+  "MonksActiveTiles.msg.select-location-any": "Vyber, prosím, lokaci v této, nebo jiné scéně",
+  "MonksActiveTiles.msg.select-entity": "Vyber, prosím, entitu",
+  "MonksActiveTiles.msg.select-user": "Vyber, prosím, uživatele",
+  "MonksActiveTiles.msg.selectlocation": "Vyber lokaci",
+  "MonksActiveTiles.msg.selectentity": "Vyber entitu",
+  "MonksActiveTiles.msg.usetile": "Použij tuto dlaždici",
+  "MonksActiveTiles.msg.usetoken": "Použij spouštěcí token",
+  "MonksActiveTiles.msg.useplayers": "Použij tokeny hráčů",
+  "MonksActiveTiles.msg.useplayersjournal": "Použij deník hráče",
+  "MonksActiveTiles.msg.usewithin": "Použij entity uvnitř spouštěcí dlaždice",
+  "MonksActiveTiles.msg.usewithinwall": "Spustit dlaždici pod těmito dveřmi",
+  "MonksActiveTiles.msg.useprevious": "Použij tito akci stávající kolekce",
+  "MonksActiveTiles.msg.usepreviouslocation": "Použij tuto akci stávající lokace",
+  "MonksActiveTiles.msg.usecontrolled": "Použij tokeny, které jsou momentálně ovládány",
+  "MonksActiveTiles.msg.useorigin": "Použij původní cílovou lokaci",
+  "MonksActiveTiles.msg.noteleporttoken": "Žádný token k teleportaci",
+  "MonksActiveTiles.msg.setposition": "Použij aktuální zobrazení",
+  "MonksActiveTiles.msg.usetagger": "Použij Tagger",
+  "MonksActiveTiles.msg.itempiles": "Funkce pro přetahování položek je u modulu Active Tiles v konfliktu s Item Piles, nastavení bylo vypnuto.",
+  "MonksActiveTiles.msg.useplayerlocation": "Použij lokaci tokenu hráče",
+  "MonksActiveTiles.msg.currentlyplaying": "Právě hrané",
+  "MonksActiveTiles.msg.useusers": "Použij hráče",
+  "MonksActiveTiles.msg.usescene": "Použij aktivní scénu",
+
+  "MonksActiveTiles.allow-player.name": "Povolit hráčům",
+  "MonksActiveTiles.allow-player.hint": "Povolení hráčům aktivovat dlaždice, když není přítomen GM.",
+  "MonksActiveTiles.use-core-macro.name": "Použít provádění Core Macro",
+  "MonksActiveTiles.use-core-macro.hint": "Pokud provádění Core makra nepoužije všechny dostupné informace, tak se o provedení makra postarají Active Tiles. Pokud tato možnost způsobuje problémy, tak ji odškrtni.",
+  "MonksActiveTiles.drop-item.name": "Přetáhnout položku na plátno",
+  "MonksActiveTiles.drop-item.hint": "Povolení položkám přetaženým na plátno, aby byly vytvořeny jako aktivní dlaždice",
+  "MonksActiveTiles.drop-scene.name": "Přetáhnout scénu na plátno",
+  "MonksActiveTiles.drop-scene.hint": "Povolení scénám přetaženým na plátno, aby byly vytvořeny jako aktivní dlaždice",
+  "MonksActiveTiles.allow-door.name": "Spouštění dveří",
+  "MonksActiveTiles.allow-door.hint": "Povolení dveřím spouštět dlaždice",
+  "MonksActiveTiles.teleport-wash.name": "Zobrazit provedení teleportu",
+  "MonksActiveTiles.teleport-wash.hint": "Když se token teleportuje, přidá se obrazová úprava, aby se zabránilo dezorientaci při změně scény.",
+
+  "MonksActiveTiles.teleport-colour.name": "Barva teleportování",
+  "MonksActiveTiles.teleport-colour.hint": "Barva pozadí, která se při teleportaci tokenu použije",
+
+  "MonksActiveTiles.default-trigger.name": "Výchozí spouštěč",
+  "MonksActiveTiles.default-trigger.hint": "Výchozí spouštěč, který se použije při vytváření dlaždice",
+
+  "MonksActiveTiles.default-restricted.name": "Výchozí omezení",
+  "MonksActiveTiles.default-restricted.hint": "Výchozí omezení, které se použije při vytváření dlaždice",
+
+  "MonksActiveTiles.default-controlled.name": "Výchozí řízení",
+  "MonksActiveTiles.default-controlled.hint": "Výchozí řízení, které se použije při vytváření dlaždice",
+
+  "MonksActiveTiles.show-help.name": "Zobrazit nápovědy",
+  "MonksActiveTiles.show-help.hint": "Zobrazení užitečné nápovědy pro pole s komplexními hodnotami",
+
+  "MonksActiveTiles.prevent-when-paused.name": "Zabránit při pauze",
+  "MonksActiveTiles.prevent-when-paused.hint": "Zabrání hráčům spouštět dlaždice, když je hra pozastavena.",
+
+  "MonksActiveTiles.allow-door-passthrough.name": "Povolit kliknutí přes dveře",
+  "MonksActiveTiles.allow-door-passthrough.hint": "Povolit dlaždicím pod dveřmi, aby byly spuštěny, pokud je na dveře kliknuto",
+
+  "MonksActiveTiles.drop-item-size.name": "Velikost přetažené položky",
+  "MonksActiveTiles.drop-item-size.hint": "Nastavení velikosti položky přetažené na plátno",
+
+  "MonksActiveTiles.show-landing.name": "Zobrazit zvýraznění přistání",
+  "MonksActiveTiles.show-landing.hint": "Zvýraznění akcí, které se dějí při přistáních",
+
+  "MonksActiveTiles.drop-macro.name": "Přetáhnout makro na plátno",
+  "MonksActiveTiles.drop-macro.hint": "Povolení makrům přetaženým na plátno, aby byly vytvořeny jako aktivní dlaždice",
+
+  "MonksActiveTiles.tile-edit.name": "Povolit úpravy šablony dlaždice",
+  "MonksActiveTiles.tile-edit.hint": "Povolení úprav šablon dlaždic. Pokud si nejsi jistý(á), co děláš, doporučuji tuto možnost nepoužívat",
+
+  "MonksActiveTiles.show-imageless.name": "Zobrazit dlaždici bez obrázku",
+  "MonksActiveTiles.show-imageless.hint": "Pokud není nastaven žádný obrázek, zobrazí se dlaždice ve vrstvě tokenů GM",
+
+  "MonksActiveTiles.tabs.Setup": "Nastavení",
+  "MonksActiveTiles.tabs.Actions": "Akce",
+  "MonksActiveTiles.tabs.Images": "Obrázky",
+
+  
+  "MonksActiveTiles.history.ViewHistory": "Zobrazit historii",
+  "MonksActiveTiles.history.ViewVariables": "Zobrazit proměnné",
+  "MonksActiveTiles.history.Token": "Token",
+  "MonksActiveTiles.history.When": "Kdy",
+  "MonksActiveTiles.history.How": "Jak",
+  "MonksActiveTiles.history.Who": "Kdo",
+  "MonksActiveTiles.history.Name": "Název",
+  "MonksActiveTiles.history.Value": "Hodnota",
+
+  "TYPES": {
+    "RegionBehavior": {
+      "monks-active-tiles": {
+        "triggerTile": "Spouštěcí dlaždice"
+      }
+    }
+  },
+
+  "BEHAVIOR": {
+    "TYPES": {
+      "triggerTile": {
+        "FIELDS": {
+          "uuid": {
+            "label": "Dlaždice",
+            "hint": "Dlaždice, kterou spustit"
+          },
+          "usetiletrigger": {
+            "label": "Spustit pomocí události",
+            "hint": "Spustit dlaždici pomocí dat události oblasti"
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
