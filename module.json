@@ -22,5 +22,6 @@
     }
   ],
   "url": "https://github.com/Lethrendis/CzechTranslationPackage",
-  "manifest": "https://github.com/Lethrendis/CzechTranslationPackage"  
+  "manifest": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationPackage/main/module.json",
+  "download": "https://github.com/Lethrendis/CzechTranslationPackage/archive/refs/heads/main.zip"  
 }
